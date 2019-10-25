@@ -1,0 +1,82 @@
+D:/OneDrive\ -\ Estudiantes\ ITCR/Escritorio/Adquisicion\ datos/Design01.cydsn/CortexM3/ARM_GCC_541/Debug/cyfitter_cfg.o : D:/OneDrive\ -\ Estudiantes\ ITCR/Escritorio/Adquisicion\ datos/Design01.cydsn/Generated_Source/PSoC5/CyFlash.h D:/OneDrive\ -\ Estudiantes\ ITCR/Escritorio/Adquisicion\ datos/Design01.cydsn/Generated_Source/PSoC5/CyLib.h D:/OneDrive\ -\ Estudiantes\ ITCR/Escritorio/Adquisicion\ datos/Design01.cydsn/Generated_Source/PSoC5/CySpc.h D:/OneDrive\ -\ Estudiantes\ ITCR/Escritorio/Adquisicion\ datos/Design01.cydsn/Generated_Source/PSoC5/cyPm.h D:/OneDrive\ -\ Estudiantes\ ITCR/Escritorio/Adquisicion\ datos/Design01.cydsn/Generated_Source/PSoC5/cydevice.h D:/OneDrive\ -\ Estudiantes\ ITCR/Escritorio/Adquisicion\ datos/Design01.cydsn/Generated_Source/PSoC5/cydevice_trm.h D:/OneDrive\ -\ Estudiantes\ ITCR/Escritorio/Adquisicion\ datos/Design01.cydsn/Generated_Source/PSoC5/cyfitter.h D:/OneDrive\ -\ Estudiantes\ ITCR/Escritorio/Adquisicion\ datos/Design01.cydsn/Generated_Source/PSoC5/cyfitter_cfg.c D:/OneDrive\ -\ Estudiantes\ ITCR/Escritorio/Adquisicion\ datos/Design01.cydsn/Generated_Source/PSoC5/cyfitter_cfg.h D:/OneDrive\ -\ Estudiantes\ ITCR/Escritorio/Adquisicion\ datos/Design01.cydsn/Generated_Source/PSoC5/cytypes.h D:/OneDrive\ -\ Estudiantes\ ITCR/Escritorio/Adquisicion\ datos/Design01.cydsn/cyapicallbacks.h 
+
+D:/OneDrive\ -\ Estudiantes\ ITCR/Escritorio/Adquisicion\ datos/Design01.cydsn/Generated_Source/PSoC5/CyFlash.h : 
+
+D:/OneDrive\ -\ Estudiantes\ ITCR/Escritorio/Adquisicion\ datos/Design01.cydsn/Generated_Source/PSoC5/CyLib.h : 
+
+D:/OneDrive\ -\ Estudiantes\ ITCR/Escritorio/Adquisicion\ datos/Design01.cydsn/Generated_Source/PSoC5/CySpc.h : 
+
+D:/OneDrive\ -\ Estudiantes\ ITCR/Escritorio/Adquisicion\ datos/Design01.cydsn/Generated_Source/PSoC5/cyPm.h : 
+
+D:/OneDrive\ -\ Estudiantes\ ITCR/Escritorio/Adquisicion\ datos/Design01.cydsn/Generated_Source/PSoC5/cydevice.h : 
+
+D:/OneDrive\ -\ Estudiantes\ ITCR/Escritorio/Adquisicion\ datos/Design01.cydsn/Generated_Source/PSoC5/cydevice_trm.h : 
+
+D:/OneDrive\ -\ Estudiantes\ ITCR/Escritorio/Adquisicion\ datos/Design01.cydsn/Generated_Source/PSoC5/cyfitter.h : 
+
+D:/OneDrive\ -\ Estudiantes\ ITCR/Escritorio/Adquisicion\ datos/Design01.cydsn/Generated_Source/PSoC5/cyfitter_cfg.c : 
+
+D:/OneDrive\ -\ Estudiantes\ ITCR/Escritorio/Adquisicion\ datos/Design01.cydsn/Generated_Source/PSoC5/cyfitter_cfg.h : 
+
+D:/OneDrive\ -\ Estudiantes\ ITCR/Escritorio/Adquisicion\ datos/Design01.cydsn/Generated_Source/PSoC5/cytypes.h : 
+
+D:/OneDrive\ -\ Estudiantes\ ITCR/Escritorio/Adquisicion\ datos/Design01.cydsn/cyapicallbacks.h : 
+
+D:/OneDrive\ -\ Estudiantes\ ITCR/Escritorio/Adquisicion\ datos/Design01.cydsn/CortexM3/ARM_GCC_541/Debug/cymetadata.o : D:/OneDrive\ -\ Estudiantes\ ITCR/Escritorio/Adquisicion\ datos/Design01.cydsn/Generated_Source/PSoC5/cymetadata.c 
+
+D:/OneDrive\ -\ Estudiantes\ ITCR/Escritorio/Adquisicion\ datos/Design01.cydsn/Generated_Source/PSoC5/cymetadata.c : 
+
+D:/OneDrive\ -\ Estudiantes\ ITCR/Escritorio/Adquisicion\ datos/Design01.cydsn/CortexM3/ARM_GCC_541/Debug/main.o : D:/OneDrive\ -\ Estudiantes\ ITCR/Escritorio/Adquisicion\ datos/Design01.cydsn/Generated_Source/PSoC5/Clock_1.h D:/OneDrive\ -\ Estudiantes\ ITCR/Escritorio/Adquisicion\ datos/Design01.cydsn/Generated_Source/PSoC5/CyDmac.h D:/OneDrive\ -\ Estudiantes\ ITCR/Escritorio/Adquisicion\ datos/Design01.cydsn/Generated_Source/PSoC5/EncoderA.h D:/OneDrive\ -\ Estudiantes\ ITCR/Escritorio/Adquisicion\ datos/Design01.cydsn/Generated_Source/PSoC5/EncoderA_aliases.h D:/OneDrive\ -\ Estudiantes\ ITCR/Escritorio/Adquisicion\ datos/Design01.cydsn/Generated_Source/PSoC5/EncoderB.h D:/OneDrive\ -\ Estudiantes\ ITCR/Escritorio/Adquisicion\ datos/Design01.cydsn/Generated_Source/PSoC5/EncoderB_aliases.h D:/OneDrive\ -\ Estudiantes\ ITCR/Escritorio/Adquisicion\ datos/Design01.cydsn/Generated_Source/PSoC5/LCD.h D:/OneDrive\ -\ Estudiantes\ ITCR/Escritorio/Adquisicion\ datos/Design01.cydsn/Generated_Source/PSoC5/LCD_LCDPort.h D:/OneDrive\ -\ Estudiantes\ ITCR/Escritorio/Adquisicion\ datos/Design01.cydsn/Generated_Source/PSoC5/LCD_LCDPort_aliases.h D:/OneDrive\ -\ Estudiantes\ ITCR/Escritorio/Adquisicion\ datos/Design01.cydsn/Generated_Source/PSoC5/LED.h D:/OneDrive\ -\ Estudiantes\ ITCR/Escritorio/Adquisicion\ datos/Design01.cydsn/Generated_Source/PSoC5/LED_aliases.h D:/OneDrive\ -\ Estudiantes\ ITCR/Escritorio/Adquisicion\ datos/Design01.cydsn/Generated_Source/PSoC5/QUADDEC.h D:/OneDrive\ -\ Estudiantes\ ITCR/Escritorio/Adquisicion\ datos/Design01.cydsn/Generated_Source/PSoC5/QUADDEC_Cnt16.h D:/OneDrive\ -\ Estudiantes\ ITCR/Escritorio/Adquisicion\ datos/Design01.cydsn/Generated_Source/PSoC5/UART.h D:/OneDrive\ -\ Estudiantes\ ITCR/Escritorio/Adquisicion\ datos/Design01.cydsn/Generated_Source/PSoC5/UART_IntClock.h D:/OneDrive\ -\ Estudiantes\ ITCR/Escritorio/Adquisicion\ datos/Design01.cydsn/Generated_Source/PSoC5/cmsis_armcc.h D:/OneDrive\ -\ Estudiantes\ ITCR/Escritorio/Adquisicion\ datos/Design01.cydsn/Generated_Source/PSoC5/cmsis_compiler.h D:/OneDrive\ -\ Estudiantes\ ITCR/Escritorio/Adquisicion\ datos/Design01.cydsn/Generated_Source/PSoC5/cmsis_gcc.h D:/OneDrive\ -\ Estudiantes\ ITCR/Escritorio/Adquisicion\ datos/Design01.cydsn/Generated_Source/PSoC5/core_cm3.h D:/OneDrive\ -\ Estudiantes\ ITCR/Escritorio/Adquisicion\ datos/Design01.cydsn/Generated_Source/PSoC5/core_cm3_psoc5.h D:/OneDrive\ -\ Estudiantes\ ITCR/Escritorio/Adquisicion\ datos/Design01.cydsn/Generated_Source/PSoC5/cy_em_eeprom.h D:/OneDrive\ -\ Estudiantes\ ITCR/Escritorio/Adquisicion\ datos/Design01.cydsn/Generated_Source/PSoC5/cydisabledsheets.h D:/OneDrive\ -\ Estudiantes\ ITCR/Escritorio/Adquisicion\ datos/Design01.cydsn/Generated_Source/PSoC5/cypins.h D:/OneDrive\ -\ Estudiantes\ ITCR/Escritorio/Adquisicion\ datos/Design01.cydsn/Generated_Source/PSoC5/isr_1.h D:/OneDrive\ -\ Estudiantes\ ITCR/Escritorio/Adquisicion\ datos/Design01.cydsn/Generated_Source/PSoC5/project.h D:/OneDrive\ -\ Estudiantes\ ITCR/Escritorio/Adquisicion\ datos/Design01.cydsn/Generated_Source/PSoC5/CyFlash.h D:/OneDrive\ -\ Estudiantes\ ITCR/Escritorio/Adquisicion\ datos/Design01.cydsn/Generated_Source/PSoC5/CyLib.h D:/OneDrive\ -\ Estudiantes\ ITCR/Escritorio/Adquisicion\ datos/Design01.cydsn/Generated_Source/PSoC5/CySpc.h D:/OneDrive\ -\ Estudiantes\ ITCR/Escritorio/Adquisicion\ datos/Design01.cydsn/Generated_Source/PSoC5/cyPm.h D:/OneDrive\ -\ Estudiantes\ ITCR/Escritorio/Adquisicion\ datos/Design01.cydsn/Generated_Source/PSoC5/cydevice.h D:/OneDrive\ -\ Estudiantes\ ITCR/Escritorio/Adquisicion\ datos/Design01.cydsn/Generated_Source/PSoC5/cydevice_trm.h D:/OneDrive\ -\ Estudiantes\ ITCR/Escritorio/Adquisicion\ datos/Design01.cydsn/Generated_Source/PSoC5/cyfitter.h D:/OneDrive\ -\ Estudiantes\ ITCR/Escritorio/Adquisicion\ datos/Design01.cydsn/Generated_Source/PSoC5/cyfitter_cfg.h D:/OneDrive\ -\ Estudiantes\ ITCR/Escritorio/Adquisicion\ datos/Design01.cydsn/Generated_Source/PSoC5/cytypes.h D:/OneDrive\ -\ Estudiantes\ ITCR/Escritorio/Adquisicion\ datos/Design01.cydsn/main.c 
+
+D:/OneDrive\ -\ Estudiantes\ ITCR/Escritorio/Adquisicion\ datos/Design01.cydsn/Generated_Source/PSoC5/Clock_1.h : 
+
+D:/OneDrive\ -\ Estudiantes\ ITCR/Escritorio/Adquisicion\ datos/Design01.cydsn/Generated_Source/PSoC5/CyDmac.h : 
+
+D:/OneDrive\ -\ Estudiantes\ ITCR/Escritorio/Adquisicion\ datos/Design01.cydsn/Generated_Source/PSoC5/EncoderA.h : 
+
+D:/OneDrive\ -\ Estudiantes\ ITCR/Escritorio/Adquisicion\ datos/Design01.cydsn/Generated_Source/PSoC5/EncoderA_aliases.h : 
+
+D:/OneDrive\ -\ Estudiantes\ ITCR/Escritorio/Adquisicion\ datos/Design01.cydsn/Generated_Source/PSoC5/EncoderB.h : 
+
+D:/OneDrive\ -\ Estudiantes\ ITCR/Escritorio/Adquisicion\ datos/Design01.cydsn/Generated_Source/PSoC5/EncoderB_aliases.h : 
+
+D:/OneDrive\ -\ Estudiantes\ ITCR/Escritorio/Adquisicion\ datos/Design01.cydsn/Generated_Source/PSoC5/LCD.h : 
+
+D:/OneDrive\ -\ Estudiantes\ ITCR/Escritorio/Adquisicion\ datos/Design01.cydsn/Generated_Source/PSoC5/LCD_LCDPort.h : 
+
+D:/OneDrive\ -\ Estudiantes\ ITCR/Escritorio/Adquisicion\ datos/Design01.cydsn/Generated_Source/PSoC5/LCD_LCDPort_aliases.h : 
+
+D:/OneDrive\ -\ Estudiantes\ ITCR/Escritorio/Adquisicion\ datos/Design01.cydsn/Generated_Source/PSoC5/LED.h : 
+
+D:/OneDrive\ -\ Estudiantes\ ITCR/Escritorio/Adquisicion\ datos/Design01.cydsn/Generated_Source/PSoC5/LED_aliases.h : 
+
+D:/OneDrive\ -\ Estudiantes\ ITCR/Escritorio/Adquisicion\ datos/Design01.cydsn/Generated_Source/PSoC5/QUADDEC.h : 
+
+D:/OneDrive\ -\ Estudiantes\ ITCR/Escritorio/Adquisicion\ datos/Design01.cydsn/Generated_Source/PSoC5/QUADDEC_Cnt16.h : 
+
+D:/OneDrive\ -\ Estudiantes\ ITCR/Escritorio/Adquisicion\ datos/Design01.cydsn/Generated_Source/PSoC5/UART.h : 
+
+D:/OneDrive\ -\ Estudiantes\ ITCR/Escritorio/Adquisicion\ datos/Design01.cydsn/Generated_Source/PSoC5/UART_IntClock.h : 
+
+D:/OneDrive\ -\ Estudiantes\ ITCR/Escritorio/Adquisicion\ datos/Design01.cydsn/Generated_Source/PSoC5/cmsis_armcc.h : 
+
+D:/OneDrive\ -\ Estudiantes\ ITCR/Escritorio/Adquisicion\ datos/Design01.cydsn/Generated_Source/PSoC5/cmsis_compiler.h : 
+
+D:/OneDrive\ -\ Estudiantes\ ITCR/Escritorio/Adquisicion\ datos/Design01.cydsn/Generated_Source/PSoC5/cmsis_gcc.h : 
+
+D:/OneDrive\ -\ Estudiantes\ ITCR/Escritorio/Adquisicion\ datos/Design01.cydsn/Generated_Source/PSoC5/core_cm3.h : 
+
+D:/OneDrive\ -\ Estudiantes\ ITCR/Escritorio/Adquisicion\ datos/Design01.cydsn/Generated_Source/PSoC5/core_cm3_psoc5.h : 
+
+D:/OneDrive\ -\ Estudiantes\ ITCR/Escritorio/Adquisicion\ datos/Design01.cydsn/Generated_Source/PSoC5/cy_em_eeprom.h : 
+
+D:/OneDrive\ -\ Estudiantes\ ITCR/Escritorio/Adquisicion\ datos/Design01.cydsn/Generated_Source/PSoC5/cydisabledsheets.h : 
+
+D:/OneDrive\ -\ Estudiantes\ ITCR/Escritorio/Adquisicion\ datos/Design01.cydsn/Generated_Source/PSoC5/cypins.h : 
+
+D:/OneDrive\ -\ Estudiantes\ ITCR/Escritorio/Adquisicion\ datos/Design01.cydsn/Generated_Source/PSoC5/isr_1.h : 
+
+D:/OneDrive\ -\ Estudiantes\ ITCR/Escritorio/Adquisicion\ datos/Design01.cydsn/Generated_Source/PSoC5/project.h : 
+
+D:/OneDrive\ -\ Estudiantes\ ITCR/Escritorio/Adquisicion\ datos/Design01.cydsn/main.c : 
+
