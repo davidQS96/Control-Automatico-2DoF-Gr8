@@ -1,4 +1,4 @@
-D:\OneDrive - Estudiantes ITCR\Escritorio\Adquisicion datos\Design01.cydsn\Design01.cyprj|70875d0d-9eee-417a-982a-3c287003c4cb
+D:\OneDrive - Estudiantes ITCR\Escritorio\Adquisicion datos GIT\Adquisicion datos\Design01.cydsn\Design01.cyprj|43961ed1-dedf-4ca1-8978-75b93fd77947
 C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|f9dc90bb-b5d5-4171-847f-7650f1335fce
 D:\OneDrive - Estudiantes ITCR\Documentos\PSoC Creator\4.2\Downloads ( 4.2).cylib\Downloads ( 4.2).cyprj|9e11902e-3fa0-4bbb-b408-561a58c3a54c
 C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|d48fbeb8-c924-4dec-85fe-1f945d1b99db

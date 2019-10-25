@@ -44,7 +44,7 @@
 * product in a ACTIVE Risk Product, the manufacturer of such system or application
 * assumes all risk of such use and in doing so indemnifies Cypress against all
 * liability. Use of this Software may be limited by and subject to the applicable
-* Cypress software license agreement.
+* Cypress software license agreement.a
 *****************************************************************************/
 #include "project.h"
 #include<stdio.h>
