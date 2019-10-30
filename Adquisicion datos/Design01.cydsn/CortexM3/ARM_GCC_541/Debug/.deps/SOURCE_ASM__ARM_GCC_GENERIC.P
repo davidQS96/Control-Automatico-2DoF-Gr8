@@ -1,10 +1,10 @@
-D:/OneDrive\ -\ Estudiantes\ ITCR/Escritorio/Adquisicion\ datos/Design01.cydsn/CortexM3/ARM_GCC_541/Debug/CyBootAsmGnu.o : D:/OneDrive\ -\ Estudiantes\ ITCR/Escritorio/Adquisicion\ datos/Design01.cydsn/Generated_Source/PSoC5/CyBootAsmGnu.s D:/OneDrive\ -\ Estudiantes\ ITCR/Escritorio/Adquisicion\ datos/Design01.cydsn/Generated_Source/PSoC5/cydevicegnu.inc D:/OneDrive\ -\ Estudiantes\ ITCR/Escritorio/Adquisicion\ datos/Design01.cydsn/Generated_Source/PSoC5/cydevicegnu_trm.inc D:/OneDrive\ -\ Estudiantes\ ITCR/Escritorio/Adquisicion\ datos/Design01.cydsn/Generated_Source/PSoC5/cyfittergnu.inc 
+D:/OneDrive\ -\ Estudiantes\ ITCR/Escritorio/Adquisicion\ datos\ GIT/Adquisicion\ datos/Design01.cydsn/CortexM3/ARM_GCC_541/Debug/CyBootAsmGnu.o : D:/OneDrive\ -\ Estudiantes\ ITCR/Escritorio/Adquisicion\ datos\ GIT/Adquisicion\ datos/Design01.cydsn/Generated_Source/PSoC5/CyBootAsmGnu.s D:/OneDrive\ -\ Estudiantes\ ITCR/Escritorio/Adquisicion\ datos\ GIT/Adquisicion\ datos/Design01.cydsn/Generated_Source/PSoC5/cydevicegnu.inc D:/OneDrive\ -\ Estudiantes\ ITCR/Escritorio/Adquisicion\ datos\ GIT/Adquisicion\ datos/Design01.cydsn/Generated_Source/PSoC5/cydevicegnu_trm.inc D:/OneDrive\ -\ Estudiantes\ ITCR/Escritorio/Adquisicion\ datos\ GIT/Adquisicion\ datos/Design01.cydsn/Generated_Source/PSoC5/cyfittergnu.inc 
 
-D:/OneDrive\ -\ Estudiantes\ ITCR/Escritorio/Adquisicion\ datos/Design01.cydsn/Generated_Source/PSoC5/CyBootAsmGnu.s : 
+D:/OneDrive\ -\ Estudiantes\ ITCR/Escritorio/Adquisicion\ datos\ GIT/Adquisicion\ datos/Design01.cydsn/Generated_Source/PSoC5/CyBootAsmGnu.s : 
 
-D:/OneDrive\ -\ Estudiantes\ ITCR/Escritorio/Adquisicion\ datos/Design01.cydsn/Generated_Source/PSoC5/cydevicegnu.inc : 
+D:/OneDrive\ -\ Estudiantes\ ITCR/Escritorio/Adquisicion\ datos\ GIT/Adquisicion\ datos/Design01.cydsn/Generated_Source/PSoC5/cydevicegnu.inc : 
 
-D:/OneDrive\ -\ Estudiantes\ ITCR/Escritorio/Adquisicion\ datos/Design01.cydsn/Generated_Source/PSoC5/cydevicegnu_trm.inc : 
+D:/OneDrive\ -\ Estudiantes\ ITCR/Escritorio/Adquisicion\ datos\ GIT/Adquisicion\ datos/Design01.cydsn/Generated_Source/PSoC5/cydevicegnu_trm.inc : 
 
-D:/OneDrive\ -\ Estudiantes\ ITCR/Escritorio/Adquisicion\ datos/Design01.cydsn/Generated_Source/PSoC5/cyfittergnu.inc : 
+D:/OneDrive\ -\ Estudiantes\ ITCR/Escritorio/Adquisicion\ datos\ GIT/Adquisicion\ datos/Design01.cydsn/Generated_Source/PSoC5/cyfittergnu.inc : 
 

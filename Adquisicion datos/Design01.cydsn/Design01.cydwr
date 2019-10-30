@@ -252,6 +252,7 @@
   <Group key="DWRInstGuidMapping">
     <Group key="Pin">
       <Data key="8d318d8b-cf7b-4b6b-b02c-ab1c5c49d0ba" value="EncoderA" />
+      <Data key="31c41c5d-1fa5-487a-821d-d01ffe3149f9" value="Rx_1" />
       <Data key="140d93bc-5dbb-4f89-990e-95f3caef3042/ed092b9b-d398-4703-be89-cebf998501f6" value="LCD_LCDPort" />
       <Data key="1425177d-0d0e-4468-8bcc-e638e5509a9b" value="Rx_1" />
       <Data key="c25d7383-f12f-44da-a592-742e9954b604" value="EncoderB" />
@@ -3348,27 +3349,9 @@
         <Data key="Port Format" value="3,1" />
       </Group>
     </Group>
-    <Group key="140d93bc-5dbb-4f89-990e-95f3caef3042/ed092b9b-d398-4703-be89-cebf998501f6">
+    <Group key="31c41c5d-1fa5-487a-821d-d01ffe3149f9">
       <Group key="0">
-        <Data key="Port Format" value="2,0" />
-      </Group>
-      <Group key="1">
-        <Data key="Port Format" value="2,1" />
-      </Group>
-      <Group key="2">
-        <Data key="Port Format" value="2,2" />
-      </Group>
-      <Group key="3">
-        <Data key="Port Format" value="2,3" />
-      </Group>
-      <Group key="4">
-        <Data key="Port Format" value="2,4" />
-      </Group>
-      <Group key="5">
-        <Data key="Port Format" value="2,5" />
-      </Group>
-      <Group key="6">
-        <Data key="Port Format" value="2,6" />
+        <Data key="Port Format" value="12,6" />
       </Group>
     </Group>
     <Group key="1425177d-0d0e-4468-8bcc-e638e5509a9b">
@@ -3378,12 +3361,12 @@
     </Group>
     <Group key="c25d7383-f12f-44da-a592-742e9954b604">
       <Group key="0">
-        <Data key="Port Format" value="3,3" />
+        <Data key="Port Format" value="3,2" />
       </Group>
     </Group>
     <Group key="e851a3b9-efb8-48be-bbb8-b303b216c393">
       <Group key="0">
-        <Data key="Port Format" value="6,3" />
+        <Data key="Port Format" value="2,1" />
       </Group>
     </Group>
     <Group key="ed092b9b-d398-4703-be89-cebf998501f6">
@@ -3391,7 +3374,17 @@
         <Data key="Port Format" value="12,7" />
       </Group>
     </Group>
-    <Group key="UnAssigned Pins" />
+    <Group key="UnAssigned Pins">
+      <Group key="140d93bc-5dbb-4f89-990e-95f3caef3042/ed092b9b-d398-4703-be89-cebf998501f6">
+        <Data key="0" value="132169438780743740" />
+        <Data key="1" value="132169438780743740" />
+        <Data key="2" value="132169438780743740" />
+        <Data key="3" value="132169438780743740" />
+        <Data key="4" value="132169438780743740" />
+        <Data key="5" value="132169438780743740" />
+        <Data key="6" value="132169438780743740" />
+      </Group>
+    </Group>
   </Group>
   <Group key="PlaceDir">
     <Data key="count" value="0" />
@@ -3404,7 +3397,7 @@
     <Data key="CYDEV_DEBUGGING_DPS" value="SWD_SWV" />
     <Data key="CYDEV_DEBUGGING_XRES" value="False" />
     <Data key="CYDEV_ECC_ENABLE" value="False" />
-    <Data key="CYDEV_HEAP_SIZE" value="0x80" />
+    <Data key="CYDEV_HEAP_SIZE" value="0x200" />
     <Data key="CYDEV_INSTRUCT_CACHE_ENABLED" value="True" />
     <Data key="CYDEV_PROTECTION_ENABLE" value="False" />
     <Data key="CYDEV_STACK_SIZE" value="0x0800" />

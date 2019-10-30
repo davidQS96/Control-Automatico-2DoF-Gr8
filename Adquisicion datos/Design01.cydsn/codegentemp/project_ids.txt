@@ -1,6 +1,6 @@
-D:\OneDrive - Estudiantes ITCR\Escritorio\Adquisicion datos GIT\Adquisicion datos\Design01.cydsn\Design01.cyprj|43961ed1-dedf-4ca1-8978-75b93fd77947
-C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|f9dc90bb-b5d5-4171-847f-7650f1335fce
-D:\OneDrive - Estudiantes ITCR\Documentos\PSoC Creator\4.2\Downloads ( 4.2).cylib\Downloads ( 4.2).cyprj|9e11902e-3fa0-4bbb-b408-561a58c3a54c
-C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|d48fbeb8-c924-4dec-85fe-1f945d1b99db
-C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|c7bb8d06-df13-4aba-ae09-b9b9d423bc77
-C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|1f94b6e5-10f6-4c2e-9cc0-6739910e16ef
+D:\OneDrive - Estudiantes ITCR\Escritorio\Adquisicion datos GIT\Adquisicion datos\Design01.cydsn\Design01.cyprj|425bf4db-d733-424b-b70e-1b112f59d22b
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|234816c0-465b-4b31-96e4-f44eda7e7cd5
+D:\OneDrive - Estudiantes ITCR\Documentos\PSoC Creator\4.2\Downloads ( 4.2).cylib\Downloads ( 4.2).cyprj|fa669501-7bbc-4b99-beb4-3e7d38f36a69
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|0565405b-692a-4c2f-90e9-ec9d2e7aeeb6
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|54b9e7e9-c338-4570-9424-522e295832e4
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|e1bafe8b-29e1-4fb8-9be6-170e43dd2734

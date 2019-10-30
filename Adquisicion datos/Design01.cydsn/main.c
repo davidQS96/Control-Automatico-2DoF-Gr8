@@ -85,7 +85,13 @@ int main(void)
 {
     uint16_t count      = MID_COUNT;
     uint16_t countPrev  = MID_COUNT;
-    char countStr[30];
+    float scalingFactor = 75.0 / 3350.0;
+    float angle;
+    char countStr[50];
+    char angleStr[50];
+    
+    float contador;
+    
     
     /* Select direction of rotation */
     //rotation_t emulated_rotation = CLOCKWISE;
@@ -101,17 +107,27 @@ int main(void)
     for(;;)
     {
         count = QUADDEC_GetCounter();
+        angle = count * scalingFactor;
         
-        LCD_Position(0u, 0u);
-        LCD_PrintString("Contoooooo");
+//        LCD_Position(0u, 0u);
+//        LCD_PrintString("Count: ");
+//        
+//        LCD_Position(0u, 7u);
+//        
+//        sprintf(countStr, "%d          ", count);
+//        LCD_PrintString(countStr);
+//        
+//        LCD_Position(1u, 0u);
+//        LCD_PrintString("Angle: ");
+//        
+//        LCD_Position(1u, 7u);
         
-        LCD_Position(1u, 2u);
-        
-        sprintf(countStr, "%d          ", count);
-        LCD_PrintString(countStr);
+        sprintf(angleStr, "%f", angle);
+//        LCD_PrintString(angleStr);
         
         
-        UART_WriteTxData(count);
+        UART_PutString(angleStr);
+        UART_PutString("\n\r");
         
 //        /* For clockwise rotation count value increases and for anti-clockwise
 //         counter value decreases */ 

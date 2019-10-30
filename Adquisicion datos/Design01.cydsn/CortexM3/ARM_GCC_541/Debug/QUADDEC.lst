@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\david\AppData\Local\Temp\ccOFvayx.s 			page 1
+ARM GAS  C:\Users\david\AppData\Local\Temp\ccvcDVXg.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\david\AppData\Local\Temp\ccOFvayx.s 			page 1
   28:Generated_Source\PSoC5/QUADDEC.c **** /*******************************************************************************
   29:Generated_Source\PSoC5/QUADDEC.c **** * Function Name: QUADDEC_Init
   30:Generated_Source\PSoC5/QUADDEC.c **** ********************************************************************************
-ARM GAS  C:\Users\david\AppData\Local\Temp\ccOFvayx.s 			page 2
+ARM GAS  C:\Users\david\AppData\Local\Temp\ccvcDVXg.s 			page 2
 
 
   31:Generated_Source\PSoC5/QUADDEC.c **** *
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\david\AppData\Local\Temp\ccOFvayx.s 			page 1
   68:Generated_Source\PSoC5/QUADDEC.c **** *
   69:Generated_Source\PSoC5/QUADDEC.c **** *******************************************************************************/
   70:Generated_Source\PSoC5/QUADDEC.c **** void QUADDEC_Enable(void) 
-ARM GAS  C:\Users\david\AppData\Local\Temp\ccOFvayx.s 			page 3
+ARM GAS  C:\Users\david\AppData\Local\Temp\ccvcDVXg.s 			page 3
 
 
   71:Generated_Source\PSoC5/QUADDEC.c **** {
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\david\AppData\Local\Temp\ccOFvayx.s 			page 1
  125:Generated_Source\PSoC5/QUADDEC.c ****         QUADDEC_Cnt16_Start();
  126:Generated_Source\PSoC5/QUADDEC.c ****         QUADDEC_Cnt16_WriteCounter(QUADDEC_COUNTER_INIT_VALUE);
  127:Generated_Source\PSoC5/QUADDEC.c ****     #endif /* QUADDEC_COUNTER_SIZE == QUADDEC_COUNTER_SIZE_8_BIT */
-ARM GAS  C:\Users\david\AppData\Local\Temp\ccOFvayx.s 			page 4
+ARM GAS  C:\Users\david\AppData\Local\Temp\ccvcDVXg.s 			page 4
 
 
  128:Generated_Source\PSoC5/QUADDEC.c ****     
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\david\AppData\Local\Temp\ccOFvayx.s 			page 1
  170:Generated_Source\PSoC5/QUADDEC.c ****     enableInterrupts = CyEnterCriticalSection();
   57              		.loc 1 170 0
   58 0006 FFF7FEFF 		bl	CyEnterCriticalSection
-ARM GAS  C:\Users\david\AppData\Local\Temp\ccOFvayx.s 			page 5
+ARM GAS  C:\Users\david\AppData\Local\Temp\ccvcDVXg.s 			page 5
 
 
   59              	.LVL1:
@@ -259,7 +259,7 @@ ARM GAS  C:\Users\david\AppData\Local\Temp\ccOFvayx.s 			page 1
   69              	.L5:
   70 001a 00BF     		.align	2
   71              	.L4:
-  72 001c 94650040 		.word	1073767828
+  72 001c 97640040 		.word	1073767575
   73              		.cfi_endproc
   74              	.LFE3:
   75              		.size	QUADDEC_Stop, .-QUADDEC_Stop
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\david\AppData\Local\Temp\ccOFvayx.s 			page 1
  200:Generated_Source\PSoC5/QUADDEC.c **** *
  201:Generated_Source\PSoC5/QUADDEC.c **** *******************************************************************************/
  202:Generated_Source\PSoC5/QUADDEC.c **** int16 QUADDEC_GetCounter(void) 
-ARM GAS  C:\Users\david\AppData\Local\Temp\ccOFvayx.s 			page 6
+ARM GAS  C:\Users\david\AppData\Local\Temp\ccvcDVXg.s 			page 6
 
 
  203:Generated_Source\PSoC5/QUADDEC.c **** {
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\david\AppData\Local\Temp\ccOFvayx.s 			page 1
  107              		.thumb
  108              		.thumb_func
  109              		.type	QUADDEC_SetCounter, %function
-ARM GAS  C:\Users\david\AppData\Local\Temp\ccOFvayx.s 			page 7
+ARM GAS  C:\Users\david\AppData\Local\Temp\ccvcDVXg.s 			page 7
 
 
  110              	QUADDEC_SetCounter:
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\david\AppData\Local\Temp\ccOFvayx.s 			page 1
  131              	.L9:
  267:Generated_Source\PSoC5/QUADDEC.c ****         }
  268:Generated_Source\PSoC5/QUADDEC.c ****         else
-ARM GAS  C:\Users\david\AppData\Local\Temp\ccOFvayx.s 			page 8
+ARM GAS  C:\Users\david\AppData\Local\Temp\ccvcDVXg.s 			page 8
 
 
  269:Generated_Source\PSoC5/QUADDEC.c ****         {
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\david\AppData\Local\Temp\ccOFvayx.s 			page 1
  303:Generated_Source\PSoC5/QUADDEC.c **** *    Bit      Description
  304:Generated_Source\PSoC5/QUADDEC.c **** *     0        Counter overflow.
  305:Generated_Source\PSoC5/QUADDEC.c **** *     1        Counter underflow.
-ARM GAS  C:\Users\david\AppData\Local\Temp\ccOFvayx.s 			page 9
+ARM GAS  C:\Users\david\AppData\Local\Temp\ccvcDVXg.s 			page 9
 
 
  306:Generated_Source\PSoC5/QUADDEC.c **** *     2        Counter reset due to index, if index input is used.
@@ -503,7 +503,7 @@ ARM GAS  C:\Users\david\AppData\Local\Temp\ccOFvayx.s 			page 1
  163              	.L14:
  164 000a 00BF     		.align	2
  165              	.L13:
- 166 000c 64650040 		.word	1073767780
+ 166 000c 67640040 		.word	1073767527
  167              		.cfi_endproc
  168              	.LFE6:
  169              		.size	QUADDEC_GetEvents, .-QUADDEC_GetEvents
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\david\AppData\Local\Temp\ccOFvayx.s 			page 1
  178              		.loc 1 333 0
  179              		.cfi_startproc
  180              		@ args = 0, pretend = 0, frame = 0
-ARM GAS  C:\Users\david\AppData\Local\Temp\ccOFvayx.s 			page 10
+ARM GAS  C:\Users\david\AppData\Local\Temp\ccvcDVXg.s 			page 10
 
 
  181              		@ frame_needed = 0, uses_anonymous_args = 0
@@ -558,7 +558,7 @@ ARM GAS  C:\Users\david\AppData\Local\Temp\ccOFvayx.s 			page 1
  188              	.L17:
  189 0006 00BF     		.align	2
  190              	.L16:
- 191 0008 84650040 		.word	1073767812
+ 191 0008 87640040 		.word	1073767559
  192              		.cfi_endproc
  193              	.LFE7:
  194              		.size	QUADDEC_SetInterruptMask, .-QUADDEC_SetInterruptMask
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\david\AppData\Local\Temp\ccOFvayx.s 			page 1
  223 0012 1378     		ldrb	r3, [r2]	@ zero_extendqisi2
  224 0014 43F01003 		orr	r3, r3, #16
  225 0018 1370     		strb	r3, [r2]
-ARM GAS  C:\Users\david\AppData\Local\Temp\ccOFvayx.s 			page 11
+ARM GAS  C:\Users\david\AppData\Local\Temp\ccvcDVXg.s 			page 11
 
 
   84:Generated_Source\PSoC5/QUADDEC.c **** 
@@ -609,7 +609,7 @@ ARM GAS  C:\Users\david\AppData\Local\Temp\ccOFvayx.s 			page 1
  230              	.L21:
  231              		.align	2
  232              	.L20:
- 233 0020 94650040 		.word	1073767828
+ 233 0020 97640040 		.word	1073767575
  234              		.cfi_endproc
  235              	.LFE1:
  236              		.size	QUADDEC_Enable, .-QUADDEC_Enable
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\david\AppData\Local\Temp\ccOFvayx.s 			page 1
  273              	.L26:
  274              		.align	2
  275              	.L25:
-ARM GAS  C:\Users\david\AppData\Local\Temp\ccOFvayx.s 			page 12
+ARM GAS  C:\Users\david\AppData\Local\Temp\ccvcDVXg.s 			page 12
 
 
  276 0020 00000000 		.word	.LANCHOR0
@@ -710,7 +710,7 @@ ARM GAS  C:\Users\david\AppData\Local\Temp\ccOFvayx.s 			page 1
  299              	.L29:
  300 000a 00BF     		.align	2
  301              	.L28:
- 302 000c 84650040 		.word	1073767812
+ 302 000c 87640040 		.word	1073767559
  303              		.cfi_endproc
  304              	.LFE8:
  305              		.size	QUADDEC_GetInterruptMask, .-QUADDEC_GetInterruptMask
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\david\AppData\Local\Temp\ccOFvayx.s 			page 1
  307              		.bss
  308              		.set	.LANCHOR0,. + 0
  309              		.type	QUADDEC_initVar, %object
-ARM GAS  C:\Users\david\AppData\Local\Temp\ccOFvayx.s 			page 13
+ARM GAS  C:\Users\david\AppData\Local\Temp\ccvcDVXg.s 			page 13
 
 
  310              		.size	QUADDEC_initVar, 1
@@ -736,10 +736,10 @@ ARM GAS  C:\Users\david\AppData\Local\Temp\ccOFvayx.s 			page 1
  322 0006 00000000 		.4byte	.Ldebug_abbrev0
  323 000a 04       		.byte	0x4
  324 000b 01       		.uleb128 0x1
- 325 000c E1000000 		.4byte	.LASF37
+ 325 000c 96000000 		.4byte	.LASF37
  326 0010 0C       		.byte	0xc
- 327 0011 86020000 		.4byte	.LASF38
- 328 0015 6B000000 		.4byte	.LASF39
+ 327 0011 9C020000 		.4byte	.LASF38
+ 328 0015 36020000 		.4byte	.LASF39
  329 0019 00000000 		.4byte	.Ldebug_ranges0+0
  330 001d 00000000 		.4byte	0
  331 0021 00000000 		.4byte	.Ldebug_line0
@@ -750,95 +750,95 @@ ARM GAS  C:\Users\david\AppData\Local\Temp\ccOFvayx.s 			page 1
  336 002c 03       		.uleb128 0x3
  337 002d 04       		.byte	0x4
  338 002e 07       		.byte	0x7
- 339 002f 13020000 		.4byte	.LASF0
+ 339 002f C8010000 		.4byte	.LASF0
  340 0033 03       		.uleb128 0x3
  341 0034 08       		.byte	0x8
  342 0035 05       		.byte	0x5
- 343 0036 73020000 		.4byte	.LASF1
+ 343 0036 28020000 		.4byte	.LASF1
  344 003a 03       		.uleb128 0x3
  345 003b 08       		.byte	0x8
  346 003c 04       		.byte	0x4
- 347 003d FB020000 		.4byte	.LASF2
+ 347 003d 11030000 		.4byte	.LASF2
  348 0041 03       		.uleb128 0x3
  349 0042 01       		.byte	0x1
  350 0043 06       		.byte	0x6
- 351 0044 07030000 		.4byte	.LASF3
+ 351 0044 1D030000 		.4byte	.LASF3
  352 0048 03       		.uleb128 0x3
  353 0049 01       		.byte	0x1
  354 004a 08       		.byte	0x8
- 355 004b D3000000 		.4byte	.LASF4
+ 355 004b 88000000 		.4byte	.LASF4
  356 004f 03       		.uleb128 0x3
  357 0050 02       		.byte	0x2
  358 0051 05       		.byte	0x5
- 359 0052 EB010000 		.4byte	.LASF5
+ 359 0052 A0010000 		.4byte	.LASF5
  360 0056 03       		.uleb128 0x3
  361 0057 02       		.byte	0x2
  362 0058 07       		.byte	0x7
- 363 0059 13030000 		.4byte	.LASF6
+ 363 0059 29030000 		.4byte	.LASF6
  364 005d 03       		.uleb128 0x3
  365 005e 04       		.byte	0x4
  366 005f 05       		.byte	0x5
-ARM GAS  C:\Users\david\AppData\Local\Temp\ccOFvayx.s 			page 14
+ARM GAS  C:\Users\david\AppData\Local\Temp\ccvcDVXg.s 			page 14
 
 
  367 0060 45000000 		.4byte	.LASF7
  368 0064 03       		.uleb128 0x3
  369 0065 04       		.byte	0x4
  370 0066 07       		.byte	0x7
- 371 0067 7A010000 		.4byte	.LASF8
+ 371 0067 2F010000 		.4byte	.LASF8
  372 006b 03       		.uleb128 0x3
  373 006c 08       		.byte	0x8
  374 006d 07       		.byte	0x7
- 375 006e BC000000 		.4byte	.LASF9
+ 375 006e 71000000 		.4byte	.LASF9
  376 0072 03       		.uleb128 0x3
  377 0073 04       		.byte	0x4
  378 0074 07       		.byte	0x7
- 379 0075 6A020000 		.4byte	.LASF10
+ 379 0075 1F020000 		.4byte	.LASF10
  380 0079 03       		.uleb128 0x3
  381 007a 01       		.byte	0x1
  382 007b 08       		.byte	0x8
- 383 007c F6020000 		.4byte	.LASF11
+ 383 007c 0C030000 		.4byte	.LASF11
  384 0080 04       		.uleb128 0x4
- 385 0081 CE020000 		.4byte	.LASF12
+ 385 0081 E4020000 		.4byte	.LASF12
  386 0085 02       		.byte	0x2
  387 0086 E401     		.2byte	0x1e4
  388 0088 48000000 		.4byte	0x48
  389 008c 04       		.uleb128 0x4
- 390 008d F5010000 		.4byte	.LASF13
+ 390 008d AA010000 		.4byte	.LASF13
  391 0091 02       		.byte	0x2
  392 0092 E501     		.2byte	0x1e5
  393 0094 56000000 		.4byte	0x56
  394 0098 04       		.uleb128 0x4
- 395 0099 74010000 		.4byte	.LASF14
+ 395 0099 29010000 		.4byte	.LASF14
  396 009d 02       		.byte	0x2
  397 009e E801     		.2byte	0x1e8
  398 00a0 4F000000 		.4byte	0x4f
  399 00a4 04       		.uleb128 0x4
- 400 00a5 8C010000 		.4byte	.LASF15
+ 400 00a5 41010000 		.4byte	.LASF15
  401 00a9 02       		.byte	0x2
  402 00aa E901     		.2byte	0x1e9
  403 00ac 5D000000 		.4byte	0x5d
  404 00b0 03       		.uleb128 0x3
  405 00b1 04       		.byte	0x4
  406 00b2 04       		.byte	0x4
- 407 00b3 B6000000 		.4byte	.LASF16
+ 407 00b3 6B000000 		.4byte	.LASF16
  408 00b7 03       		.uleb128 0x3
  409 00b8 08       		.byte	0x8
  410 00b9 04       		.byte	0x4
- 411 00ba B8010000 		.4byte	.LASF17
+ 411 00ba 6D010000 		.4byte	.LASF17
  412 00be 04       		.uleb128 0x4
- 413 00bf 6F010000 		.4byte	.LASF18
+ 413 00bf 24010000 		.4byte	.LASF18
  414 00c3 02       		.byte	0x2
  415 00c4 8E02     		.2byte	0x28e
  416 00c6 CA000000 		.4byte	0xca
  417 00ca 05       		.uleb128 0x5
  418 00cb 80000000 		.4byte	0x80
  419 00cf 06       		.uleb128 0x6
- 420 00d0 C1020000 		.4byte	.LASF40
+ 420 00d0 D7020000 		.4byte	.LASF40
  421 00d4 01       		.byte	0x1
  422 00d5 2A       		.byte	0x2a
  423 00d6 00000000 		.4byte	.LFB0
-ARM GAS  C:\Users\david\AppData\Local\Temp\ccOFvayx.s 			page 15
+ARM GAS  C:\Users\david\AppData\Local\Temp\ccvcDVXg.s 			page 15
 
 
  424 00da 02000000 		.4byte	.LFE0-.LFB0
@@ -854,7 +854,7 @@ ARM GAS  C:\Users\david\AppData\Local\Temp\ccOFvayx.s 			page 1
  434 00f0 9C       		.byte	0x9c
  435 00f1 20010000 		.4byte	0x120
  436 00f5 08       		.uleb128 0x8
- 437 00f6 A0010000 		.4byte	.LASF19
+ 437 00f6 55010000 		.4byte	.LASF19
  438 00fa 01       		.byte	0x1
  439 00fb 9F       		.byte	0x9f
  440 00fc 80000000 		.4byte	0x80
@@ -870,7 +870,7 @@ ARM GAS  C:\Users\david\AppData\Local\Temp\ccOFvayx.s 			page 1
  450 011b A7020000 		.4byte	0x2a7
  451 011f 00       		.byte	0
  452 0120 0A       		.uleb128 0xa
- 453 0121 D4020000 		.4byte	.LASF41
+ 453 0121 EA020000 		.4byte	.LASF41
  454 0125 01       		.byte	0x1
  455 0126 CA       		.byte	0xca
  456 0127 98000000 		.4byte	0x98
@@ -887,7 +887,7 @@ ARM GAS  C:\Users\david\AppData\Local\Temp\ccOFvayx.s 			page 1
  467 0144 01       		.uleb128 0x1
  468 0145 50       		.byte	0x50
  469 0146 08       		.uleb128 0x8
- 470 0147 B1010000 		.4byte	.LASF21
+ 470 0147 66010000 		.4byte	.LASF21
  471 014b 01       		.byte	0x1
  472 014c CD       		.byte	0xcd
  473 014d 8C000000 		.4byte	0x8c
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\david\AppData\Local\Temp\ccOFvayx.s 			page 1
  478 015e 00       		.byte	0
  479 015f 0C       		.uleb128 0xc
  480 0160 12000000 		.4byte	.LASF23
-ARM GAS  C:\Users\david\AppData\Local\Temp\ccOFvayx.s 			page 16
+ARM GAS  C:\Users\david\AppData\Local\Temp\ccvcDVXg.s 			page 16
 
 
  481 0164 01       		.byte	0x1
@@ -934,7 +934,7 @@ ARM GAS  C:\Users\david\AppData\Local\Temp\ccOFvayx.s 			page 1
  511 01b3 01       		.uleb128 0x1
  512 01b4 9C       		.byte	0x9c
  513 01b5 0C       		.uleb128 0xc
- 514 01b6 D2010000 		.4byte	.LASF24
+ 514 01b6 87010000 		.4byte	.LASF24
  515 01ba 01       		.byte	0x1
  516 01bb 4C01     		.2byte	0x14c
  517 01bd 00000000 		.4byte	.LFB7
@@ -943,7 +943,7 @@ ARM GAS  C:\Users\david\AppData\Local\Temp\ccOFvayx.s 			page 1
  520 01c6 9C       		.byte	0x9c
  521 01c7 DA010000 		.4byte	0x1da
  522 01cb 10       		.uleb128 0x10
- 523 01cc 81020000 		.4byte	.LASF26
+ 523 01cc 97020000 		.4byte	.LASF26
  524 01d0 01       		.byte	0x1
  525 01d1 4C01     		.2byte	0x14c
  526 01d3 80000000 		.4byte	0x80
@@ -951,19 +951,19 @@ ARM GAS  C:\Users\david\AppData\Local\Temp\ccOFvayx.s 			page 1
  528 01d8 50       		.byte	0x50
  529 01d9 00       		.byte	0
  530 01da 07       		.uleb128 0x7
- 531 01db E7020000 		.4byte	.LASF27
+ 531 01db FD020000 		.4byte	.LASF27
  532 01df 01       		.byte	0x1
  533 01e0 46       		.byte	0x46
  534 01e1 00000000 		.4byte	.LFB1
  535 01e5 24000000 		.4byte	.LFE1-.LFB1
  536 01e9 01       		.uleb128 0x1
  537 01ea 9C       		.byte	0x9c
-ARM GAS  C:\Users\david\AppData\Local\Temp\ccOFvayx.s 			page 17
+ARM GAS  C:\Users\david\AppData\Local\Temp\ccvcDVXg.s 			page 17
 
 
  538 01eb 2D020000 		.4byte	0x22d
  539 01ef 08       		.uleb128 0x8
- 540 01f0 A0010000 		.4byte	.LASF19
+ 540 01f0 55010000 		.4byte	.LASF19
  541 01f4 01       		.byte	0x1
  542 01f5 48       		.byte	0x48
  543 01f6 80000000 		.4byte	0x80
@@ -989,7 +989,7 @@ ARM GAS  C:\Users\david\AppData\Local\Temp\ccOFvayx.s 			page 1
  563 0228 A7020000 		.4byte	0x2a7
  564 022c 00       		.byte	0
  565 022d 07       		.uleb128 0x7
- 566 022e 92010000 		.4byte	.LASF28
+ 566 022e 47010000 		.4byte	.LASF28
  567 0232 01       		.byte	0x1
  568 0233 74       		.byte	0x74
  569 0234 00000000 		.4byte	.LFB2
@@ -1016,9 +1016,9 @@ ARM GAS  C:\Users\david\AppData\Local\Temp\ccOFvayx.s 			page 1
  590 0265 DA010000 		.4byte	0x1da
  591 0269 00       		.byte	0
  592 026a 0F       		.uleb128 0xf
- 593 026b 51020000 		.4byte	.LASF30
+ 593 026b 06020000 		.4byte	.LASF30
  594 026f 01       		.byte	0x1
-ARM GAS  C:\Users\david\AppData\Local\Temp\ccOFvayx.s 			page 18
+ARM GAS  C:\Users\david\AppData\Local\Temp\ccvcDVXg.s 			page 18
 
 
  595 0270 6801     		.2byte	0x168
@@ -1036,28 +1036,28 @@ ARM GAS  C:\Users\david\AppData\Local\Temp\ccOFvayx.s 			page 1
  607 028c 03       		.byte	0x3
  608 028d 00000000 		.4byte	QUADDEC_initVar
  609 0291 14       		.uleb128 0x14
- 610 0292 BF010000 		.4byte	.LASF31
- 611 0296 BF010000 		.4byte	.LASF31
+ 610 0292 74010000 		.4byte	.LASF31
+ 611 0296 74010000 		.4byte	.LASF31
  612 029a 03       		.byte	0x3
  613 029b 50       		.byte	0x50
  614 029c 14       		.uleb128 0x14
- 615 029d FC010000 		.4byte	.LASF32
- 616 02a1 FC010000 		.4byte	.LASF32
+ 615 029d B1010000 		.4byte	.LASF32
+ 616 02a1 B1010000 		.4byte	.LASF32
  617 02a5 04       		.byte	0x4
  618 02a6 7D       		.byte	0x7d
  619 02a7 14       		.uleb128 0x14
- 620 02a8 3B020000 		.4byte	.LASF33
- 621 02ac 3B020000 		.4byte	.LASF33
+ 620 02a8 F0010000 		.4byte	.LASF33
+ 621 02ac F0010000 		.4byte	.LASF33
  622 02b0 04       		.byte	0x4
  623 02b1 7E       		.byte	0x7e
  624 02b2 14       		.uleb128 0x14
- 625 02b3 A7020000 		.4byte	.LASF34
- 626 02b7 A7020000 		.4byte	.LASF34
+ 625 02b3 BD020000 		.4byte	.LASF34
+ 626 02b7 BD020000 		.4byte	.LASF34
  627 02bb 03       		.byte	0x3
  628 02bc 5D       		.byte	0x5d
  629 02bd 14       		.uleb128 0x14
- 630 02be 20020000 		.4byte	.LASF35
- 631 02c2 20020000 		.4byte	.LASF35
+ 630 02be D5010000 		.4byte	.LASF35
+ 631 02c2 D5010000 		.4byte	.LASF35
  632 02c6 03       		.byte	0x3
  633 02c7 5A       		.byte	0x5a
  634 02c8 14       		.uleb128 0x14
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\david\AppData\Local\Temp\ccOFvayx.s 			page 1
  649 0007 03       		.uleb128 0x3
  650 0008 0E       		.uleb128 0xe
  651 0009 1B       		.uleb128 0x1b
-ARM GAS  C:\Users\david\AppData\Local\Temp\ccOFvayx.s 			page 19
+ARM GAS  C:\Users\david\AppData\Local\Temp\ccvcDVXg.s 			page 19
 
 
  652 000a 0E       		.uleb128 0xe
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\david\AppData\Local\Temp\ccOFvayx.s 			page 1
  706 0040 3F       		.uleb128 0x3f
  707 0041 19       		.uleb128 0x19
  708 0042 03       		.uleb128 0x3
-ARM GAS  C:\Users\david\AppData\Local\Temp\ccOFvayx.s 			page 20
+ARM GAS  C:\Users\david\AppData\Local\Temp\ccvcDVXg.s 			page 20
 
 
  709 0043 0E       		.uleb128 0xe
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\david\AppData\Local\Temp\ccOFvayx.s 			page 1
  763 007b 17       		.uleb128 0x17
  764 007c 00       		.byte	0
  765 007d 00       		.byte	0
-ARM GAS  C:\Users\david\AppData\Local\Temp\ccOFvayx.s 			page 21
+ARM GAS  C:\Users\david\AppData\Local\Temp\ccvcDVXg.s 			page 21
 
 
  766 007e 09       		.uleb128 0x9
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\david\AppData\Local\Temp\ccOFvayx.s 			page 1
  820 00b7 3F       		.uleb128 0x3f
  821 00b8 19       		.uleb128 0x19
  822 00b9 03       		.uleb128 0x3
-ARM GAS  C:\Users\david\AppData\Local\Temp\ccOFvayx.s 			page 22
+ARM GAS  C:\Users\david\AppData\Local\Temp\ccvcDVXg.s 			page 22
 
 
  823 00ba 0E       		.uleb128 0xe
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\david\AppData\Local\Temp\ccOFvayx.s 			page 1
  877 00f1 03       		.uleb128 0x3
  878 00f2 0E       		.uleb128 0xe
  879 00f3 3A       		.uleb128 0x3a
-ARM GAS  C:\Users\david\AppData\Local\Temp\ccOFvayx.s 			page 23
+ARM GAS  C:\Users\david\AppData\Local\Temp\ccvcDVXg.s 			page 23
 
 
  880 00f4 0B       		.uleb128 0xb
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\david\AppData\Local\Temp\ccOFvayx.s 			page 1
  934 0130 00       		.byte	0
  935 0131 03       		.uleb128 0x3
  936 0132 0E       		.uleb128 0xe
-ARM GAS  C:\Users\david\AppData\Local\Temp\ccOFvayx.s 			page 24
+ARM GAS  C:\Users\david\AppData\Local\Temp\ccvcDVXg.s 			page 24
 
 
  937 0133 3A       		.uleb128 0x3a
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\david\AppData\Local\Temp\ccOFvayx.s 			page 1
  991 003b F3       		.byte	0xf3
  992 003c 01       		.uleb128 0x1
  993 003d 50       		.byte	0x50
-ARM GAS  C:\Users\david\AppData\Local\Temp\ccOFvayx.s 			page 25
+ARM GAS  C:\Users\david\AppData\Local\Temp\ccvcDVXg.s 			page 25
 
 
  994 003e 9F       		.byte	0x9f
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\david\AppData\Local\Temp\ccOFvayx.s 			page 1
  1048 000c 20000000 		.4byte	.LFE3
  1049 0010 00000000 		.4byte	.LFB4
  1050 0014 0E000000 		.4byte	.LFE4
-ARM GAS  C:\Users\david\AppData\Local\Temp\ccOFvayx.s 			page 26
+ARM GAS  C:\Users\david\AppData\Local\Temp\ccvcDVXg.s 			page 26
 
 
  1051 0018 00000000 		.4byte	.LFB5
@@ -1558,197 +1558,197 @@ ARM GAS  C:\Users\david\AppData\Local\Temp\ccOFvayx.s 			page 1
  1082              	.LASF42:
  1083 005b 51554144 		.ascii	"QUADDEC_initVar\000"
  1083      4445435F 
-ARM GAS  C:\Users\david\AppData\Local\Temp\ccOFvayx.s 			page 27
+ARM GAS  C:\Users\david\AppData\Local\Temp\ccvcDVXg.s 			page 27
 
 
  1083      696E6974 
  1083      56617200 
- 1084              	.LASF39:
- 1085 006b 443A5C4F 		.ascii	"D:\\OneDrive - Estudiantes ITCR\\Escritorio\\Adquis"
- 1085      6E654472 
- 1085      69766520 
- 1085      2D204573 
- 1085      74756469 
- 1086 009b 6963696F 		.ascii	"icion datos\\Design01.cydsn\000"
- 1086      6E206461 
- 1086      746F735C 
- 1086      44657369 
- 1086      676E3031 
- 1087              	.LASF16:
- 1088 00b6 666C6F61 		.ascii	"float\000"
- 1088      7400
- 1089              	.LASF9:
- 1090 00bc 6C6F6E67 		.ascii	"long long unsigned int\000"
- 1090      206C6F6E 
- 1090      6720756E 
- 1090      7369676E 
- 1090      65642069 
- 1091              	.LASF4:
- 1092 00d3 756E7369 		.ascii	"unsigned char\000"
- 1092      676E6564 
- 1092      20636861 
- 1092      7200
- 1093              	.LASF37:
- 1094 00e1 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
- 1094      43313120 
- 1094      352E342E 
- 1094      31203230 
- 1094      31363036 
- 1095 0114 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m3 -mthumb -g -O"
- 1095      20726576 
- 1095      6973696F 
- 1095      6E203233 
- 1095      37373135 
- 1096 0147 67202D66 		.ascii	"g -ffunction-sections -ffat-lto-objects\000"
- 1096      66756E63 
- 1096      74696F6E 
- 1096      2D736563 
- 1096      74696F6E 
- 1097              	.LASF18:
- 1098 016f 72656738 		.ascii	"reg8\000"
- 1098      00
- 1099              	.LASF14:
- 1100 0174 696E7431 		.ascii	"int16\000"
- 1100      3600
- 1101              	.LASF8:
- 1102 017a 6C6F6E67 		.ascii	"long unsigned int\000"
- 1102      20756E73 
- 1102      69676E65 
- 1102      6420696E 
- 1102      7400
- 1103              	.LASF15:
- 1104 018c 696E7433 		.ascii	"int32\000"
-ARM GAS  C:\Users\david\AppData\Local\Temp\ccOFvayx.s 			page 28
+ 1084              	.LASF16:
+ 1085 006b 666C6F61 		.ascii	"float\000"
+ 1085      7400
+ 1086              	.LASF9:
+ 1087 0071 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 1087      206C6F6E 
+ 1087      6720756E 
+ 1087      7369676E 
+ 1087      65642069 
+ 1088              	.LASF4:
+ 1089 0088 756E7369 		.ascii	"unsigned char\000"
+ 1089      676E6564 
+ 1089      20636861 
+ 1089      7200
+ 1090              	.LASF37:
+ 1091 0096 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
+ 1091      43313120 
+ 1091      352E342E 
+ 1091      31203230 
+ 1091      31363036 
+ 1092 00c9 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m3 -mthumb -g -O"
+ 1092      20726576 
+ 1092      6973696F 
+ 1092      6E203233 
+ 1092      37373135 
+ 1093 00fc 67202D66 		.ascii	"g -ffunction-sections -ffat-lto-objects\000"
+ 1093      66756E63 
+ 1093      74696F6E 
+ 1093      2D736563 
+ 1093      74696F6E 
+ 1094              	.LASF18:
+ 1095 0124 72656738 		.ascii	"reg8\000"
+ 1095      00
+ 1096              	.LASF14:
+ 1097 0129 696E7431 		.ascii	"int16\000"
+ 1097      3600
+ 1098              	.LASF8:
+ 1099 012f 6C6F6E67 		.ascii	"long unsigned int\000"
+ 1099      20756E73 
+ 1099      69676E65 
+ 1099      6420696E 
+ 1099      7400
+ 1100              	.LASF15:
+ 1101 0141 696E7433 		.ascii	"int32\000"
+ 1101      3200
+ 1102              	.LASF28:
+ 1103 0147 51554144 		.ascii	"QUADDEC_Start\000"
+ 1103      4445435F 
+ 1103      53746172 
+ 1103      7400
+ 1104              	.LASF19:
+ 1105 0155 656E6162 		.ascii	"enableInterrupts\000"
+ 1105      6C65496E 
+ 1105      74657272 
+ 1105      75707473 
+ARM GAS  C:\Users\david\AppData\Local\Temp\ccvcDVXg.s 			page 28
 
 
- 1104      3200
- 1105              	.LASF28:
- 1106 0192 51554144 		.ascii	"QUADDEC_Start\000"
- 1106      4445435F 
- 1106      53746172 
- 1106      7400
- 1107              	.LASF19:
- 1108 01a0 656E6162 		.ascii	"enableInterrupts\000"
- 1108      6C65496E 
- 1108      74657272 
- 1108      75707473 
- 1108      00
- 1109              	.LASF21:
- 1110 01b1 746D7043 		.ascii	"tmpCnt\000"
- 1110      6E7400
- 1111              	.LASF17:
- 1112 01b8 646F7562 		.ascii	"double\000"
- 1112      6C6500
- 1113              	.LASF31:
- 1114 01bf 51554144 		.ascii	"QUADDEC_Cnt16_Stop\000"
- 1114      4445435F 
- 1114      436E7431 
- 1114      365F5374 
- 1114      6F7000
- 1115              	.LASF24:
- 1116 01d2 51554144 		.ascii	"QUADDEC_SetInterruptMask\000"
- 1116      4445435F 
- 1116      53657449 
- 1116      6E746572 
- 1116      72757074 
- 1117              	.LASF5:
- 1118 01eb 73686F72 		.ascii	"short int\000"
- 1118      7420696E 
- 1118      7400
- 1119              	.LASF13:
- 1120 01f5 75696E74 		.ascii	"uint16\000"
- 1120      313600
- 1121              	.LASF32:
- 1122 01fc 4379456E 		.ascii	"CyEnterCriticalSection\000"
- 1122      74657243 
- 1122      72697469 
- 1122      63616C53 
- 1122      65637469 
- 1123              	.LASF0:
- 1124 0213 756E7369 		.ascii	"unsigned int\000"
- 1124      676E6564 
- 1124      20696E74 
- 1124      00
- 1125              	.LASF35:
- 1126 0220 51554144 		.ascii	"QUADDEC_Cnt16_WriteCounter\000"
- 1126      4445435F 
- 1126      436E7431 
- 1126      365F5772 
- 1126      69746543 
- 1127              	.LASF33:
- 1128 023b 43794578 		.ascii	"CyExitCriticalSection\000"
- 1128      69744372 
-ARM GAS  C:\Users\david\AppData\Local\Temp\ccOFvayx.s 			page 29
+ 1105      00
+ 1106              	.LASF21:
+ 1107 0166 746D7043 		.ascii	"tmpCnt\000"
+ 1107      6E7400
+ 1108              	.LASF17:
+ 1109 016d 646F7562 		.ascii	"double\000"
+ 1109      6C6500
+ 1110              	.LASF31:
+ 1111 0174 51554144 		.ascii	"QUADDEC_Cnt16_Stop\000"
+ 1111      4445435F 
+ 1111      436E7431 
+ 1111      365F5374 
+ 1111      6F7000
+ 1112              	.LASF24:
+ 1113 0187 51554144 		.ascii	"QUADDEC_SetInterruptMask\000"
+ 1113      4445435F 
+ 1113      53657449 
+ 1113      6E746572 
+ 1113      72757074 
+ 1114              	.LASF5:
+ 1115 01a0 73686F72 		.ascii	"short int\000"
+ 1115      7420696E 
+ 1115      7400
+ 1116              	.LASF13:
+ 1117 01aa 75696E74 		.ascii	"uint16\000"
+ 1117      313600
+ 1118              	.LASF32:
+ 1119 01b1 4379456E 		.ascii	"CyEnterCriticalSection\000"
+ 1119      74657243 
+ 1119      72697469 
+ 1119      63616C53 
+ 1119      65637469 
+ 1120              	.LASF0:
+ 1121 01c8 756E7369 		.ascii	"unsigned int\000"
+ 1121      676E6564 
+ 1121      20696E74 
+ 1121      00
+ 1122              	.LASF35:
+ 1123 01d5 51554144 		.ascii	"QUADDEC_Cnt16_WriteCounter\000"
+ 1123      4445435F 
+ 1123      436E7431 
+ 1123      365F5772 
+ 1123      69746543 
+ 1124              	.LASF33:
+ 1125 01f0 43794578 		.ascii	"CyExitCriticalSection\000"
+ 1125      69744372 
+ 1125      69746963 
+ 1125      616C5365 
+ 1125      6374696F 
+ 1126              	.LASF30:
+ 1127 0206 51554144 		.ascii	"QUADDEC_GetInterruptMask\000"
+ 1127      4445435F 
+ 1127      47657449 
+ 1127      6E746572 
+ 1127      72757074 
+ 1128              	.LASF10:
+ 1129 021f 73697A65 		.ascii	"sizetype\000"
+ARM GAS  C:\Users\david\AppData\Local\Temp\ccvcDVXg.s 			page 29
 
 
- 1128      69746963 
- 1128      616C5365 
- 1128      6374696F 
- 1129              	.LASF30:
- 1130 0251 51554144 		.ascii	"QUADDEC_GetInterruptMask\000"
- 1130      4445435F 
- 1130      47657449 
- 1130      6E746572 
- 1130      72757074 
- 1131              	.LASF10:
- 1132 026a 73697A65 		.ascii	"sizetype\000"
- 1132      74797065 
- 1132      00
- 1133              	.LASF1:
- 1134 0273 6C6F6E67 		.ascii	"long long int\000"
- 1134      206C6F6E 
- 1134      6720696E 
- 1134      7400
+ 1129      74797065 
+ 1129      00
+ 1130              	.LASF1:
+ 1131 0228 6C6F6E67 		.ascii	"long long int\000"
+ 1131      206C6F6E 
+ 1131      6720696E 
+ 1131      7400
+ 1132              	.LASF39:
+ 1133 0236 443A5C4F 		.ascii	"D:\\OneDrive - Estudiantes ITCR\\Escritorio\\Adquis"
+ 1133      6E654472 
+ 1133      69766520 
+ 1133      2D204573 
+ 1133      74756469 
+ 1134 0266 6963696F 		.ascii	"icion datos GIT\\Adquisicion datos\\Design01.cydsn\000"
+ 1134      6E206461 
+ 1134      746F7320 
+ 1134      4749545C 
+ 1134      41647175 
  1135              	.LASF26:
- 1136 0281 6D61736B 		.ascii	"mask\000"
+ 1136 0297 6D61736B 		.ascii	"mask\000"
  1136      00
  1137              	.LASF38:
- 1138 0286 47656E65 		.ascii	"Generated_Source\\PSoC5\\QUADDEC.c\000"
+ 1138 029c 47656E65 		.ascii	"Generated_Source\\PSoC5\\QUADDEC.c\000"
  1138      72617465 
  1138      645F536F 
  1138      75726365 
  1138      5C50536F 
  1139              	.LASF34:
- 1140 02a7 51554144 		.ascii	"QUADDEC_Cnt16_ReadCounter\000"
+ 1140 02bd 51554144 		.ascii	"QUADDEC_Cnt16_ReadCounter\000"
  1140      4445435F 
  1140      436E7431 
  1140      365F5265 
  1140      6164436F 
  1141              	.LASF40:
- 1142 02c1 51554144 		.ascii	"QUADDEC_Init\000"
+ 1142 02d7 51554144 		.ascii	"QUADDEC_Init\000"
  1142      4445435F 
  1142      496E6974 
  1142      00
  1143              	.LASF12:
- 1144 02ce 75696E74 		.ascii	"uint8\000"
+ 1144 02e4 75696E74 		.ascii	"uint8\000"
  1144      3800
  1145              	.LASF41:
- 1146 02d4 51554144 		.ascii	"QUADDEC_GetCounter\000"
+ 1146 02ea 51554144 		.ascii	"QUADDEC_GetCounter\000"
  1146      4445435F 
  1146      47657443 
  1146      6F756E74 
  1146      657200
  1147              	.LASF27:
- 1148 02e7 51554144 		.ascii	"QUADDEC_Enable\000"
+ 1148 02fd 51554144 		.ascii	"QUADDEC_Enable\000"
  1148      4445435F 
  1148      456E6162 
  1148      6C6500
  1149              	.LASF11:
- 1150 02f6 63686172 		.ascii	"char\000"
+ 1150 030c 63686172 		.ascii	"char\000"
  1150      00
  1151              	.LASF2:
- 1152 02fb 6C6F6E67 		.ascii	"long double\000"
-ARM GAS  C:\Users\david\AppData\Local\Temp\ccOFvayx.s 			page 30
+ 1152 0311 6C6F6E67 		.ascii	"long double\000"
+ARM GAS  C:\Users\david\AppData\Local\Temp\ccvcDVXg.s 			page 30
 
 
  1152      20646F75 
  1152      626C6500 
  1153              	.LASF3:
- 1154 0307 7369676E 		.ascii	"signed char\000"
+ 1154 031d 7369676E 		.ascii	"signed char\000"
  1154      65642063 
  1154      68617200 
  1155              	.LASF6:
- 1156 0313 73686F72 		.ascii	"short unsigned int\000"
+ 1156 0329 73686F72 		.ascii	"short unsigned int\000"
  1156      7420756E 
  1156      7369676E 
  1156      65642069 
