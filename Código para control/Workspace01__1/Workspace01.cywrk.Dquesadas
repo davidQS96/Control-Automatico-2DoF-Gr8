@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CyXmlSerializer>
+<!--This file is machine generated and read. It is not intended to be edited by hand.-->
+<!--Due to this, there is no schema for this file.-->
+<CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21 type_name="CyDesigner.Common.ProjMgmt.Model.CyPrjMgmtWrkspcCustomData" version="4">
+<CyGuid_fdba8dfd-b15b-4469-9bbb-9e40c3e70997 type_name="CyDesigner.Common.Base.CyCustomData" version="2">
+<userData>
+<dataGuid v="1b906a0f-a7b6-4e4d-a428-82f98b53cb35">
+<CyGuid_1b906a0f-a7b6-4e4d-a428-82f98b53cb35 type_name="CyDesigner.Common.ProjMgmt.GUI.CyExplorerWindow+CyExplorerWindowState" version="3" SelectedTab="Source">
+<TreeKeys>
+<v>Source</v>
+<v>Components</v>
+<v>Output</v>
+</TreeKeys>
+<TreeStates>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
+<ExpandedNodeIds>
+<v>Workspace01</v>
+<v>Workspace01\Controlador</v>
+<v>Workspace01\Controlador\TopDesign</v>
+<v>Workspace01\Controlador\Controlador.cydwr</v>
+<v>Workspace01\Controlador\Controlador.cydwr\Pins</v>
+<v>Workspace01\Controlador\Controlador.cydwr\Analog</v>
+<v>Workspace01\Controlador\Controlador.cydwr\Clocks</v>
+<v>Workspace01\Controlador\Controlador.cydwr\Interrupts</v>
+<v>Workspace01\Controlador\Controlador.cydwr\DMA</v>
+<v>Workspace01\Controlador\Controlador.cydwr\System</v>
+<v>Workspace01\Controlador\Controlador.cydwr\Directives</v>
+<v>Workspace01\Controlador\Controlador.cydwr\Flash Security</v>
+<v>Workspace01\Controlador\Controlador.cydwr\EEPROM</v>
+<v>Workspace01\Controlador\Header Files</v>
+<v>Workspace01\Controlador\Header Files\cyapicallbacks.h</v>
+<v>Workspace01\Controlador\Source Files</v>
+<v>Workspace01\Controlador\Source Files\main.c</v>
+<v>Workspace01\Controlador\Generated_Source</v>
+<v>Workspace01\Controlador\Generated_Source\PSoC5</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>Workspace01</v>
+<v>Workspace01\Controlador</v>
+<v>Workspace01\Controlador\TopDesign</v>
+<v>Workspace01\Controlador\Controlador.cydwr</v>
+<v>Workspace01\Controlador\Controlador.cydwr\Pins</v>
+<v>Workspace01\Controlador\Controlador.cydwr\Analog</v>
+<v>Workspace01\Controlador\Controlador.cydwr\Clocks</v>
+<v>Workspace01\Controlador\Controlador.cydwr\Interrupts</v>
+<v>Workspace01\Controlador\Controlador.cydwr\DMA</v>
+<v>Workspace01\Controlador\Controlador.cydwr\System</v>
+<v>Workspace01\Controlador\Controlador.cydwr\Directives</v>
+<v>Workspace01\Controlador\Controlador.cydwr\Flash Security</v>
+<v>Workspace01\Controlador\Controlador.cydwr\EEPROM</v>
+<v>Workspace01\Controlador\Header Files</v>
+<v>Workspace01\Controlador\Header Files\cyapicallbacks.h</v>
+<v>Workspace01\Controlador\Source Files</v>
+<v>Workspace01\Controlador\Source Files\main.c</v>
+<v>Workspace01\Controlador\Generated_Source</v>
+<v>Workspace01\Controlador\Generated_Source\PSoC5</v>
+<v>Workspace01\Controlador\Generated_Source\PSoC5\Clock_1</v>
+<v>Workspace01\Controlador\Generated_Source\PSoC5\Clock_2</v>
+<v>Workspace01\Controlador\Generated_Source\PSoC5\cy_boot</v>
+<v>Workspace01\Controlador\Generated_Source\PSoC5\Em_EEPROM_Dynamic</v>
+<v>Workspace01\Controlador\Generated_Source\PSoC5\EncoderA</v>
+<v>Workspace01\Controlador\Generated_Source\PSoC5\EncoderB</v>
+<v>Workspace01\Controlador\Generated_Source\PSoC5\LCD</v>
+<v>Workspace01\Controlador\Generated_Source\PSoC5\LCD_LCDPort</v>
+<v>Workspace01\Controlador\Generated_Source\PSoC5\LED</v>
+<v>Workspace01\Controlador\Generated_Source\PSoC5\Pin_2</v>
+<v>Workspace01\Controlador\Generated_Source\PSoC5\PWM</v>
+<v>Workspace01\Controlador\Generated_Source\PSoC5\QUADDEC</v>
+<v>Workspace01\Controlador\Generated_Source\PSoC5\QUADDEC_Cnt16</v>
+<v>Workspace01\Controlador\Generated_Source\PSoC5\cycodeshareexport.ld</v>
+<v>Workspace01\Controlador\Generated_Source\PSoC5\cycodeshareimport.ld</v>
+<v>Workspace01\Controlador\Generated_Source\PSoC5\cycodeshareimport.scat</v>
+<v>Workspace01\Controlador\Generated_Source\PSoC5\cydevice.h</v>
+<v>Workspace01\Controlador\Generated_Source\PSoC5\cydevice_trm.h</v>
+<v>Workspace01\Controlador\Generated_Source\PSoC5\cydevicegnu.inc</v>
+<v>Workspace01\Controlador\Generated_Source\PSoC5\cydevicegnu_trm.inc</v>
+<v>Workspace01\Controlador\Generated_Source\PSoC5\cydeviceiar.inc</v>
+<v>Workspace01\Controlador\Generated_Source\PSoC5\cydeviceiar_trm.inc</v>
+<v>Workspace01\Controlador\Generated_Source\PSoC5\cydevicerv.inc</v>
+<v>Workspace01\Controlador\Generated_Source\PSoC5\cydevicerv_trm.inc</v>
+<v>Workspace01\Controlador\Generated_Source\PSoC5\cydisabledsheets.h</v>
+<v>Workspace01\Controlador\Generated_Source\PSoC5\cyfitter.h</v>
+<v>Workspace01\Controlador\Generated_Source\PSoC5\cyfitter_cfg.c</v>
+<v>Workspace01\Controlador\Generated_Source\PSoC5\cyfitter_cfg.h</v>
+<v>Workspace01\Controlador\Generated_Source\PSoC5\cyfittergnu.inc</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
+<ExpandedNodeIds>
+<v>Workspace01</v>
+<v>Workspace01\Controlador</v>
+<v>Workspace01\Controlador\TopDesign</v>
+<v>Workspace01\Controlador\TopDesign\TopDesign.cysch</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>Workspace01</v>
+<v>Workspace01\Controlador</v>
+<v>Workspace01\Controlador\TopDesign</v>
+<v>Workspace01\Controlador\TopDesign\TopDesign.cysch</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
+<ExpandedNodeIds>
+<v>Workspace01</v>
+<v>Workspace01\Controlador</v>
+<v>Workspace01\Controlador\CortexM3</v>
+<v>Workspace01\Controlador\CortexM3\ARM_GCC_541</v>
+<v>Workspace01\Controlador\CortexM3\ARM_GCC_541\Debug</v>
+<v>Workspace01\Controlador\CortexM3\ARM_GCC_541\Debug\Listing Files</v>
+<v>Workspace01\Controlador\CortexM3\ARM_GCC_541\Debug\Listing Files\Clock_1.lst</v>
+<v>Workspace01\Controlador\CortexM3\ARM_GCC_541\Debug\Listing Files\Clock_2.lst</v>
+<v>Workspace01\Controlador\CortexM3\ARM_GCC_541\Debug\Listing Files\Cm3Start.lst</v>
+<v>Workspace01\Controlador\CortexM3\ARM_GCC_541\Debug\Listing Files\cy_em_eeprom.lst</v>
+<v>Workspace01\Controlador\CortexM3\ARM_GCC_541\Debug\Listing Files\CyBootAsmGnu.lst</v>
+<v>Workspace01\Controlador\CortexM3\ARM_GCC_541\Debug\Listing Files\CyDmac.lst</v>
+<v>Workspace01\Controlador\CortexM3\ARM_GCC_541\Debug\Listing Files\cyfitter_cfg.lst</v>
+<v>Workspace01\Controlador\CortexM3\ARM_GCC_541\Debug\Listing Files\CyFlash.lst</v>
+<v>Workspace01\Controlador\CortexM3\ARM_GCC_541\Debug\Listing Files\CyLib.lst</v>
+<v>Workspace01\Controlador\CortexM3\ARM_GCC_541\Debug\Listing Files\cymetadata.lst</v>
+<v>Workspace01\Controlador\CortexM3\ARM_GCC_541\Debug\Listing Files\cyPm.lst</v>
+<v>Workspace01\Controlador\CortexM3\ARM_GCC_541\Debug\Listing Files\CySpc.lst</v>
+<v>Workspace01\Controlador\CortexM3\ARM_GCC_541\Debug\Listing Files\cyutils.lst</v>
+<v>Workspace01\Controlador\CortexM3\ARM_GCC_541\Debug\Listing Files\EncoderA.lst</v>
+<v>Workspace01\Controlador\CortexM3\ARM_GCC_541\Debug\Listing Files\EncoderB.lst</v>
+<v>Workspace01\Controlador\CortexM3\ARM_GCC_541\Debug\Listing Files\LCD.lst</v>
+<v>Workspace01\Controlador\CortexM3\ARM_GCC_541\Debug\Listing Files\LCD_LCDPort.lst</v>
+<v>Workspace01\Controlador\CortexM3\ARM_GCC_541\Debug\Listing Files\LCD_PM.lst</v>
+<v>Workspace01\Controlador\CortexM3\ARM_GCC_541\Debug\Listing Files\LED.lst</v>
+<v>Workspace01\Controlador\CortexM3\ARM_GCC_541\Debug\Listing Files\main.lst</v>
+<v>Workspace01\Controlador\CortexM3\ARM_GCC_541\Debug\Listing Files\Pin_2.lst</v>
+<v>Workspace01\Controlador\CortexM3\ARM_GCC_541\Debug\Listing Files\PWM.lst</v>
+<v>Workspace01\Controlador\CortexM3\ARM_GCC_541\Debug\Listing Files\PWM_PM.lst</v>
+<v>Workspace01\Controlador\CortexM3\ARM_GCC_541\Debug\Listing Files\QUADDEC.lst</v>
+<v>Workspace01\Controlador\CortexM3\ARM_GCC_541\Debug\Listing Files\QUADDEC_Cnt16.lst</v>
+<v>Workspace01\Controlador\CortexM3\ARM_GCC_541\Debug\Listing Files\QUADDEC_Cnt16_PM.lst</v>
+<v>Workspace01\Controlador\CortexM3\ARM_GCC_541\Debug\Listing Files\QUADDEC_PM.lst</v>
+<v>Workspace01\Controlador\CortexM3\ARM_GCC_541\Debug\Controlador.elf</v>
+<v>Workspace01\Controlador\CortexM3\ARM_GCC_541\Debug\Controlador.hex</v>
+<v>Workspace01\Controlador\CortexM3\ARM_GCC_541\Debug\Controlador.map</v>
+<v>Workspace01\Controlador\Controlador.gpdsc</v>
+<v>Workspace01\Controlador\Controlador.rpt</v>
+<v>Workspace01\Controlador\Controlador_timing.html</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>Workspace01</v>
+<v>Workspace01\Controlador</v>
+<v>Workspace01\Controlador\Controlador.rpt</v>
+<v>Workspace01\Controlador\Controlador_timing.html</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+</TreeStates>
+<TreeKeysV2>
+<v>Datasheet</v>
+</TreeKeysV2>
+<TreeStatesV2>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
+<ExpandedNodeIds>
+<v>Workspace01</v>
+<v>Workspace01\Controlador</v>
+<v>Workspace01\Controlador\PSoC 5LP Architecture TRM</v>
+<v>Workspace01\Controlador\CY8C58LP Family Datasheet</v>
+<v>Workspace01\Controlador\System Reference Guides</v>
+<v>Workspace01\Controlador\System Reference Guides\cy_boot_v5_70</v>
+<v>Workspace01\Controlador\CharLCD_v2_20.pdf</v>
+<v>Workspace01\Controlador\cy_clock_v2_20</v>
+<v>Workspace01\Controlador\cy_clock_v2_20\cy_clock_v2_20.pdf</v>
+<v>Workspace01\Controlador\cy_constant_v1_0</v>
+<v>Workspace01\Controlador\cy_constant_v1_0\cy_constant_v1_0.pdf</v>
+<v>Workspace01\Controlador\cy_pins_v2_20</v>
+<v>Workspace01\Controlador\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
+<v>Workspace01\Controlador\PWM_v3_30.pdf</v>
+<v>Workspace01\Controlador\QuadDec_v3_0.pdf</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>Workspace01</v>
+<v>Workspace01\Controlador</v>
+<v>Workspace01\Controlador\PSoC 5LP Architecture TRM</v>
+<v>Workspace01\Controlador\CY8C58LP Family Datasheet</v>
+<v>Workspace01\Controlador\System Reference Guides</v>
+<v>Workspace01\Controlador\System Reference Guides\cy_boot_v5_70</v>
+<v>Workspace01\Controlador\CharLCD_v2_20.pdf</v>
+<v>Workspace01\Controlador\cy_clock_v2_20</v>
+<v>Workspace01\Controlador\cy_clock_v2_20\cy_clock_v2_20.pdf</v>
+<v>Workspace01\Controlador\cy_constant_v1_0</v>
+<v>Workspace01\Controlador\cy_constant_v1_0\cy_constant_v1_0.pdf</v>
+<v>Workspace01\Controlador\cy_pins_v2_20</v>
+<v>Workspace01\Controlador\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
+<v>Workspace01\Controlador\PWM_v3_30.pdf</v>
+<v>Workspace01\Controlador\QuadDec_v3_0.pdf</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+</TreeStatesV2>
+</CyGuid_1b906a0f-a7b6-4e4d-a428-82f98b53cb35>
+</dataGuid>
+</userData>
+</CyGuid_fdba8dfd-b15b-4469-9bbb-9e40c3e70997>
+<Unloaded />
+<OpenDocs>
+<name v=".\Controlador.cydsn\TopDesign\TopDesign.cysch" />
+<name v=".\Controlador.cydsn\Controlador.cydwr" />
+<name v=".\Controlador.cydsn\main.c" />
+</OpenDocs>
+<OpenDocsLayout><![CDATA[<?xml version="1.0"?><!--
+
+  Actipro Docking/MDI for WinForms
+  Copyright (c) 2001-2016 Actipro Software LLC.  All rights reserved.
+  http://www.actiprosoftware.com
+
+--><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1439, 712" SelectedTabbedMdiWindow="6681463b-be0f-4ee0-bc09-12d35bf7ef64"><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="281962e7-0bc0-43a3-9a9a-30a9ad865456" /><DocumentWindow Key="C:\Users\Dquesadas\Documents\PSoC Creator\Workspace01\Controlador.cydsn\TopDesign\TopDesign.cysch" Guid="6681463b-be0f-4ee0-bc09-12d35bf7ef64" /><DocumentWindow Key="C:\Users\Dquesadas\Documents\PSoC Creator\Workspace01\Controlador.cydsn\Controlador.cydwr" Guid="22dc2e7d-f275-4ba7-b6a1-30f0835efe49" /><DocumentWindow Key="C:\Users\Dquesadas\Documents\PSoC Creator\Workspace01\Controlador.cydsn\main.c" Guid="ea577285-827d-40ed-b423-f6bd61927614" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
+<config v="" />
+<AutoUpdate v="true" />
+</CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21>
+</CyXmlSerializer>

@@ -1,0 +1,1591 @@
+ARM GAS  C:\Users\DQUESA~1\AppData\Local\Temp\ccj6mW1c.s 			page 1
+
+
+   1              		.syntax unified
+   2              		.cpu cortex-m3
+   3              		.fpu softvfp
+   4              		.eabi_attribute 20, 1
+   5              		.eabi_attribute 21, 1
+   6              		.eabi_attribute 23, 3
+   7              		.eabi_attribute 24, 1
+   8              		.eabi_attribute 25, 1
+   9              		.eabi_attribute 26, 1
+  10              		.eabi_attribute 30, 1
+  11              		.eabi_attribute 34, 1
+  12              		.eabi_attribute 18, 4
+  13              		.thumb
+  14              		.syntax unified
+  15              		.file	"cymetadata.c"
+  16              		.text
+  17              	.Ltext0:
+  18              		.cfi_sections	.debug_frame
+  19              		.global	cy_metadata
+  20              		.global	cy_meta_flashprotect
+  21              		.global	cy_meta_wonvl
+  22              		.global	cy_meta_custnvl
+  23              		.global	cy_meta_configecc
+  24              		.section	.cyconfigecc,"a",%progbits
+  25              		.align	2
+  26              		.type	cy_meta_configecc, %object
+  27              		.size	cy_meta_configecc, 1048
+  28              	cy_meta_configecc:
+  29 0000 02       		.byte	2
+  30 0001 52       		.byte	82
+  31 0002 00       		.byte	0
+  32 0003 40       		.byte	64
+  33 0004 03       		.byte	3
+  34 0005 64       		.byte	100
+  35 0006 00       		.byte	0
+  36 0007 40       		.byte	64
+  37 0008 54       		.byte	84
+  38 0009 00       		.byte	0
+  39 000a 01       		.byte	1
+  40 000b 40       		.byte	64
+  41 000c 27       		.byte	39
+  42 000d 01       		.byte	1
+  43 000e 01       		.byte	1
+  44 000f 40       		.byte	64
+  45 0010 42       		.byte	66
+  46 0011 02       		.byte	2
+  47 0012 01       		.byte	1
+  48 0013 40       		.byte	64
+  49 0014 2A       		.byte	42
+  50 0015 03       		.byte	3
+  51 0016 01       		.byte	1
+  52 0017 40       		.byte	64
+  53 0018 5B       		.byte	91
+  54 0019 04       		.byte	4
+  55 001a 01       		.byte	1
+  56 001b 40       		.byte	64
+  57 001c 31       		.byte	49
+ARM GAS  C:\Users\DQUESA~1\AppData\Local\Temp\ccj6mW1c.s 			page 2
+
+
+  58 001d 05       		.byte	5
+  59 001e 01       		.byte	1
+  60 001f 40       		.byte	64
+  61 0020 28       		.byte	40
+  62 0021 06       		.byte	6
+  63 0022 01       		.byte	1
+  64 0023 40       		.byte	64
+  65 0024 29       		.byte	41
+  66 0025 07       		.byte	7
+  67 0026 01       		.byte	1
+  68 0027 40       		.byte	64
+  69 0028 01       		.byte	1
+  70 0029 0D       		.byte	13
+  71 002a 01       		.byte	1
+  72 002b 40       		.byte	64
+  73 002c 02       		.byte	2
+  74 002d 17       		.byte	23
+  75 002e 01       		.byte	1
+  76 002f 40       		.byte	64
+  77 0030 05       		.byte	5
+  78 0031 40       		.byte	64
+  79 0032 01       		.byte	1
+  80 0033 40       		.byte	64
+  81 0034 05       		.byte	5
+  82 0035 41       		.byte	65
+  83 0036 01       		.byte	1
+  84 0037 40       		.byte	64
+  85 0038 03       		.byte	3
+  86 0039 45       		.byte	69
+  87 003a 01       		.byte	1
+  88 003b 40       		.byte	64
+  89 003c 03       		.byte	3
+  90 003d 50       		.byte	80
+  91 003e 01       		.byte	1
+  92 003f 40       		.byte	64
+  93 0040 10       		.byte	16
+  94 0041 02       		.byte	2
+  95 0042 11       		.byte	17
+  96 0043 02       		.byte	2
+  97 0044 81       		.byte	-127
+  98 0045 0D       		.byte	13
+  99 0046 86       		.byte	-122
+ 100 0047 6F       		.byte	111
+ 101 0048 87       		.byte	-121
+ 102 0049 0F       		.byte	15
+ 103 004a 00       		.byte	0
+ 104 004b 01       		.byte	1
+ 105 004c 02       		.byte	2
+ 106 004d 02       		.byte	2
+ 107 004e 0C       		.byte	12
+ 108 004f 02       		.byte	2
+ 109 0050 0E       		.byte	14
+ 110 0051 01       		.byte	1
+ 111 0052 16       		.byte	22
+ 112 0053 04       		.byte	4
+ 113 0054 1C       		.byte	28
+ 114 0055 01       		.byte	1
+ARM GAS  C:\Users\DQUESA~1\AppData\Local\Temp\ccj6mW1c.s 			page 3
+
+
+ 115 0056 1E       		.byte	30
+ 116 0057 02       		.byte	2
+ 117 0058 1F       		.byte	31
+ 118 0059 01       		.byte	1
+ 119 005a 23       		.byte	35
+ 120 005b 02       		.byte	2
+ 121 005c 2C       		.byte	44
+ 122 005d 01       		.byte	1
+ 123 005e 2E       		.byte	46
+ 124 005f 02       		.byte	2
+ 125 0060 30       		.byte	48
+ 126 0061 04       		.byte	4
+ 127 0062 31       		.byte	49
+ 128 0063 01       		.byte	1
+ 129 0064 36       		.byte	54
+ 130 0065 03       		.byte	3
+ 131 0066 37       		.byte	55
+ 132 0067 02       		.byte	2
+ 133 0068 3A       		.byte	58
+ 134 0069 80       		.byte	-128
+ 135 006a 40       		.byte	64
+ 136 006b 30       		.byte	48
+ 137 006c 41       		.byte	65
+ 138 006d 02       		.byte	2
+ 139 006e 49       		.byte	73
+ 140 006f FF       		.byte	-1
+ 141 0070 4A       		.byte	74
+ 142 0071 FF       		.byte	-1
+ 143 0072 4B       		.byte	75
+ 144 0073 FF       		.byte	-1
+ 145 0074 4D       		.byte	77
+ 146 0075 A0       		.byte	-96
+ 147 0076 4F       		.byte	79
+ 148 0077 04       		.byte	4
+ 149 0078 50       		.byte	80
+ 150 0079 18       		.byte	24
+ 151 007a 58       		.byte	88
+ 152 007b 04       		.byte	4
+ 153 007c 59       		.byte	89
+ 154 007d 04       		.byte	4
+ 155 007e 5A       		.byte	90
+ 156 007f 04       		.byte	4
+ 157 0080 5C       		.byte	92
+ 158 0081 11       		.byte	17
+ 159 0082 5F       		.byte	95
+ 160 0083 01       		.byte	1
+ 161 0084 60       		.byte	96
+ 162 0085 40       		.byte	64
+ 163 0086 62       		.byte	98
+ 164 0087 C0       		.byte	-64
+ 165 0088 64       		.byte	100
+ 166 0089 40       		.byte	64
+ 167 008a 65       		.byte	101
+ 168 008b 40       		.byte	64
+ 169 008c 66       		.byte	102
+ 170 008d C0       		.byte	-64
+ 171 008e 68       		.byte	104
+ARM GAS  C:\Users\DQUESA~1\AppData\Local\Temp\ccj6mW1c.s 			page 4
+
+
+ 172 008f C0       		.byte	-64
+ 173 0090 6A       		.byte	106
+ 174 0091 C0       		.byte	-64
+ 175 0092 6C       		.byte	108
+ 176 0093 C0       		.byte	-64
+ 177 0094 6E       		.byte	110
+ 178 0095 C0       		.byte	-64
+ 179 0096 83       		.byte	-125
+ 180 0097 03       		.byte	3
+ 181 0098 8C       		.byte	-116
+ 182 0099 05       		.byte	5
+ 183 009a 94       		.byte	-108
+ 184 009b 01       		.byte	1
+ 185 009c 96       		.byte	-106
+ 186 009d 1E       		.byte	30
+ 187 009e 99       		.byte	-103
+ 188 009f 02       		.byte	2
+ 189 00a0 9E       		.byte	-98
+ 190 00a1 10       		.byte	16
+ 191 00a2 A2       		.byte	-94
+ 192 00a3 07       		.byte	7
+ 193 00a4 A4       		.byte	-92
+ 194 00a5 02       		.byte	2
+ 195 00a6 A6       		.byte	-90
+ 196 00a7 0C       		.byte	12
+ 197 00a8 B0       		.byte	-80
+ 198 00a9 04       		.byte	4
+ 199 00aa B2       		.byte	-78
+ 200 00ab 03       		.byte	3
+ 201 00ac B3       		.byte	-77
+ 202 00ad 01       		.byte	1
+ 203 00ae B4       		.byte	-76
+ 204 00af 08       		.byte	8
+ 205 00b0 B6       		.byte	-74
+ 206 00b1 10       		.byte	16
+ 207 00b2 B7       		.byte	-73
+ 208 00b3 02       		.byte	2
+ 209 00b4 BA       		.byte	-70
+ 210 00b5 02       		.byte	2
+ 211 00b6 BE       		.byte	-66
+ 212 00b7 10       		.byte	16
+ 213 00b8 C0       		.byte	-64
+ 214 00b9 30       		.byte	48
+ 215 00ba C1       		.byte	-63
+ 216 00bb 06       		.byte	6
+ 217 00bc C5       		.byte	-59
+ 218 00bd D0       		.byte	-48
+ 219 00be C6       		.byte	-58
+ 220 00bf 20       		.byte	32
+ 221 00c0 C7       		.byte	-57
+ 222 00c1 10       		.byte	16
+ 223 00c2 C8       		.byte	-56
+ 224 00c3 2A       		.byte	42
+ 225 00c4 C9       		.byte	-55
+ 226 00c5 FF       		.byte	-1
+ 227 00c6 CA       		.byte	-54
+ 228 00c7 FF       		.byte	-1
+ARM GAS  C:\Users\DQUESA~1\AppData\Local\Temp\ccj6mW1c.s 			page 5
+
+
+ 229 00c8 CB       		.byte	-53
+ 230 00c9 FF       		.byte	-1
+ 231 00ca CD       		.byte	-51
+ 232 00cb AF       		.byte	-81
+ 233 00cc CE       		.byte	-50
+ 234 00cd 0F       		.byte	15
+ 235 00ce CF       		.byte	-49
+ 236 00cf 04       		.byte	4
+ 237 00d0 D0       		.byte	-48
+ 238 00d1 18       		.byte	24
+ 239 00d2 D2       		.byte	-46
+ 240 00d3 80       		.byte	-128
+ 241 00d4 D4       		.byte	-44
+ 242 00d5 05       		.byte	5
+ 243 00d6 D8       		.byte	-40
+ 244 00d7 04       		.byte	4
+ 245 00d8 D9       		.byte	-39
+ 246 00d9 04       		.byte	4
+ 247 00da DA       		.byte	-38
+ 248 00db 04       		.byte	4
+ 249 00dc DB       		.byte	-37
+ 250 00dd 04       		.byte	4
+ 251 00de DF       		.byte	-33
+ 252 00df 01       		.byte	1
+ 253 00e0 E0       		.byte	-32
+ 254 00e1 40       		.byte	64
+ 255 00e2 E2       		.byte	-30
+ 256 00e3 C0       		.byte	-64
+ 257 00e4 E4       		.byte	-28
+ 258 00e5 40       		.byte	64
+ 259 00e6 E5       		.byte	-27
+ 260 00e7 40       		.byte	64
+ 261 00e8 E6       		.byte	-26
+ 262 00e9 C0       		.byte	-64
+ 263 00ea E8       		.byte	-24
+ 264 00eb C0       		.byte	-64
+ 265 00ec EA       		.byte	-22
+ 266 00ed C0       		.byte	-64
+ 267 00ee EC       		.byte	-20
+ 268 00ef C0       		.byte	-64
+ 269 00f0 EE       		.byte	-18
+ 270 00f1 C0       		.byte	-64
+ 271 00f2 01       		.byte	1
+ 272 00f3 82       		.byte	-126
+ 273 00f4 04       		.byte	4
+ 274 00f5 40       		.byte	64
+ 275 00f6 09       		.byte	9
+ 276 00f7 80       		.byte	-128
+ 277 00f8 0B       		.byte	11
+ 278 00f9 20       		.byte	32
+ 279 00fa 0D       		.byte	13
+ 280 00fb 08       		.byte	8
+ 281 00fc 0F       		.byte	15
+ 282 00fd 02       		.byte	2
+ 283 00fe 12       		.byte	18
+ 284 00ff 02       		.byte	2
+ 285 0100 16       		.byte	22
+ARM GAS  C:\Users\DQUESA~1\AppData\Local\Temp\ccj6mW1c.s 			page 6
+
+
+ 286 0101 60       		.byte	96
+ 287 0102 19       		.byte	25
+ 288 0103 83       		.byte	-125
+ 289 0104 1C       		.byte	28
+ 290 0105 40       		.byte	64
+ 291 0106 1D       		.byte	29
+ 292 0107 08       		.byte	8
+ 293 0108 1E       		.byte	30
+ 294 0109 08       		.byte	8
+ 295 010a 1F       		.byte	31
+ 296 010b 80       		.byte	-128
+ 297 010c 21       		.byte	33
+ 298 010d 80       		.byte	-128
+ 299 010e 22       		.byte	34
+ 300 010f 02       		.byte	2
+ 301 0110 26       		.byte	38
+ 302 0111 40       		.byte	64
+ 303 0112 27       		.byte	39
+ 304 0113 20       		.byte	32
+ 305 0114 29       		.byte	41
+ 306 0115 01       		.byte	1
+ 307 0116 31       		.byte	49
+ 308 0117 80       		.byte	-128
+ 309 0118 37       		.byte	55
+ 310 0119 20       		.byte	32
+ 311 011a 3F       		.byte	63
+ 312 011b 02       		.byte	2
+ 313 011c 41       		.byte	65
+ 314 011d 08       		.byte	8
+ 315 011e 43       		.byte	67
+ 316 011f 20       		.byte	32
+ 317 0120 45       		.byte	69
+ 318 0121 08       		.byte	8
+ 319 0122 4F       		.byte	79
+ 320 0123 21       		.byte	33
+ 321 0124 56       		.byte	86
+ 322 0125 20       		.byte	32
+ 323 0126 57       		.byte	87
+ 324 0127 31       		.byte	49
+ 325 0128 5E       		.byte	94
+ 326 0129 88       		.byte	-120
+ 327 012a 5F       		.byte	95
+ 328 012b 01       		.byte	1
+ 329 012c 76       		.byte	118
+ 330 012d 40       		.byte	64
+ 331 012e C0       		.byte	-64
+ 332 012f 89       		.byte	-119
+ 333 0130 C2       		.byte	-62
+ 334 0131 A5       		.byte	-91
+ 335 0132 C4       		.byte	-60
+ 336 0133 31       		.byte	49
+ 337 0134 CA       		.byte	-54
+ 338 0135 01       		.byte	1
+ 339 0136 CC       		.byte	-52
+ 340 0137 28       		.byte	40
+ 341 0138 CE       		.byte	-50
+ 342 0139 80       		.byte	-128
+ARM GAS  C:\Users\DQUESA~1\AppData\Local\Temp\ccj6mW1c.s 			page 7
+
+
+ 343 013a D0       		.byte	-48
+ 344 013b 46       		.byte	70
+ 345 013c D2       		.byte	-46
+ 346 013d 20       		.byte	32
+ 347 013e D6       		.byte	-42
+ 348 013f D0       		.byte	-48
+ 349 0140 01       		.byte	1
+ 350 0141 01       		.byte	1
+ 351 0142 03       		.byte	3
+ 352 0143 02       		.byte	2
+ 353 0144 04       		.byte	4
+ 354 0145 77       		.byte	119
+ 355 0146 05       		.byte	5
+ 356 0147 01       		.byte	1
+ 357 0148 07       		.byte	7
+ 358 0149 06       		.byte	6
+ 359 014a 08       		.byte	8
+ 360 014b 85       		.byte	-123
+ 361 014c 0A       		.byte	10
+ 362 014d 1A       		.byte	26
+ 363 014e 0C       		.byte	12
+ 364 014f 03       		.byte	3
+ 365 0150 0E       		.byte	14
+ 366 0151 FC       		.byte	-4
+ 367 0152 11       		.byte	17
+ 368 0153 01       		.byte	1
+ 369 0154 13       		.byte	19
+ 370 0155 0A       		.byte	10
+ 371 0156 14       		.byte	20
+ 372 0157 CA       		.byte	-54
+ 373 0158 16       		.byte	22
+ 374 0159 15       		.byte	21
+ 375 015a 18       		.byte	24
+ 376 015b BF       		.byte	-65
+ 377 015c 19       		.byte	25
+ 378 015d 02       		.byte	2
+ 379 015e 1A       		.byte	26
+ 380 015f 40       		.byte	64
+ 381 0160 1B       		.byte	27
+ 382 0161 01       		.byte	1
+ 383 0162 1C       		.byte	28
+ 384 0163 CC       		.byte	-52
+ 385 0164 1E       		.byte	30
+ 386 0165 23       		.byte	35
+ 387 0166 27       		.byte	39
+ 388 0167 10       		.byte	16
+ 389 0168 31       		.byte	49
+ 390 0169 04       		.byte	4
+ 391 016a 33       		.byte	51
+ 392 016b 08       		.byte	8
+ 393 016c 34       		.byte	52
+ 394 016d 0F       		.byte	15
+ 395 016e 35       		.byte	53
+ 396 016f 03       		.byte	3
+ 397 0170 36       		.byte	54
+ 398 0171 F0       		.byte	-16
+ 399 0172 37       		.byte	55
+ARM GAS  C:\Users\DQUESA~1\AppData\Local\Temp\ccj6mW1c.s 			page 8
+
+
+ 400 0173 10       		.byte	16
+ 401 0174 38       		.byte	56
+ 402 0175 08       		.byte	8
+ 403 0176 3B       		.byte	59
+ 404 0177 20       		.byte	32
+ 405 0178 3E       		.byte	62
+ 406 0179 04       		.byte	4
+ 407 017a 58       		.byte	88
+ 408 017b 04       		.byte	4
+ 409 017c 59       		.byte	89
+ 410 017d 04       		.byte	4
+ 411 017e 5C       		.byte	92
+ 412 017f 11       		.byte	17
+ 413 0180 5F       		.byte	95
+ 414 0181 01       		.byte	1
+ 415 0182 82       		.byte	-126
+ 416 0183 0F       		.byte	15
+ 417 0184 83       		.byte	-125
+ 418 0185 07       		.byte	7
+ 419 0186 84       		.byte	-124
+ 420 0187 FD       		.byte	-3
+ 421 0188 85       		.byte	-123
+ 422 0189 B7       		.byte	-73
+ 423 018a 86       		.byte	-122
+ 424 018b 02       		.byte	2
+ 425 018c 87       		.byte	-121
+ 426 018d 40       		.byte	64
+ 427 018e 88       		.byte	-120
+ 428 018f 30       		.byte	48
+ 429 0190 8A       		.byte	-118
+ 430 0191 C9       		.byte	-55
+ 431 0192 8C       		.byte	-116
+ 432 0193 94       		.byte	-108
+ 433 0194 8D       		.byte	-115
+ 434 0195 C0       		.byte	-64
+ 435 0196 8E       		.byte	-114
+ 436 0197 60       		.byte	96
+ 437 0198 8F       		.byte	-113
+ 438 0199 14       		.byte	20
+ 439 019a 90       		.byte	-112
+ 440 019b CF       		.byte	-49
+ 441 019c 92       		.byte	-110
+ 442 019d 30       		.byte	48
+ 443 019e 95       		.byte	-107
+ 444 019f C1       		.byte	-63
+ 445 01a0 97       		.byte	-105
+ 446 01a1 22       		.byte	34
+ 447 01a2 98       		.byte	-104
+ 448 01a3 9E       		.byte	-98
+ 449 01a4 99       		.byte	-103
+ 450 01a5 04       		.byte	4
+ 451 01a6 9A       		.byte	-102
+ 452 01a7 60       		.byte	96
+ 453 01a8 9B       		.byte	-101
+ 454 01a9 F0       		.byte	-16
+ 455 01aa A3       		.byte	-93
+ 456 01ab 08       		.byte	8
+ARM GAS  C:\Users\DQUESA~1\AppData\Local\Temp\ccj6mW1c.s 			page 9
+
+
+ 457 01ac A5       		.byte	-91
+ 458 01ad 77       		.byte	119
+ 459 01ae A8       		.byte	-88
+ 460 01af 73       		.byte	115
+ 461 01b0 AD       		.byte	-83
+ 462 01b1 81       		.byte	-127
+ 463 01b2 AF       		.byte	-81
+ 464 01b3 12       		.byte	18
+ 465 01b4 B0       		.byte	-80
+ 466 01b5 FF       		.byte	-1
+ 467 01b6 B3       		.byte	-77
+ 468 01b7 F0       		.byte	-16
+ 469 01b8 B7       		.byte	-73
+ 470 01b9 0F       		.byte	15
+ 471 01ba BE       		.byte	-66
+ 472 01bb 01       		.byte	1
+ 473 01bc D8       		.byte	-40
+ 474 01bd 04       		.byte	4
+ 475 01be D9       		.byte	-39
+ 476 01bf 04       		.byte	4
+ 477 01c0 DC       		.byte	-36
+ 478 01c1 10       		.byte	16
+ 479 01c2 DF       		.byte	-33
+ 480 01c3 01       		.byte	1
+ 481 01c4 00       		.byte	0
+ 482 01c5 06       		.byte	6
+ 483 01c6 01       		.byte	1
+ 484 01c7 80       		.byte	-128
+ 485 01c8 03       		.byte	3
+ 486 01c9 44       		.byte	68
+ 487 01ca 05       		.byte	5
+ 488 01cb 88       		.byte	-120
+ 489 01cc 07       		.byte	7
+ 490 01cd 24       		.byte	36
+ 491 01ce 0A       		.byte	10
+ 492 01cf 08       		.byte	8
+ 493 01d0 0B       		.byte	11
+ 494 01d1 80       		.byte	-128
+ 495 01d2 0E       		.byte	14
+ 496 01d3 0A       		.byte	10
+ 497 01d4 0F       		.byte	15
+ 498 01d5 10       		.byte	16
+ 499 01d6 13       		.byte	19
+ 500 01d7 20       		.byte	32
+ 501 01d8 19       		.byte	25
+ 502 01d9 01       		.byte	1
+ 503 01da 1C       		.byte	28
+ 504 01db 04       		.byte	4
+ 505 01dc 1E       		.byte	30
+ 506 01dd 2A       		.byte	42
+ 507 01de 1F       		.byte	31
+ 508 01df 40       		.byte	64
+ 509 01e0 20       		.byte	32
+ 510 01e1 02       		.byte	2
+ 511 01e2 22       		.byte	34
+ 512 01e3 0C       		.byte	12
+ 513 01e4 23       		.byte	35
+ARM GAS  C:\Users\DQUESA~1\AppData\Local\Temp\ccj6mW1c.s 			page 10
+
+
+ 514 01e5 11       		.byte	17
+ 515 01e6 25       		.byte	37
+ 516 01e7 05       		.byte	5
+ 517 01e8 26       		.byte	38
+ 518 01e9 20       		.byte	32
+ 519 01ea 27       		.byte	39
+ 520 01eb 06       		.byte	6
+ 521 01ec 29       		.byte	41
+ 522 01ed 89       		.byte	-119
+ 523 01ee 2C       		.byte	44
+ 524 01ef 20       		.byte	32
+ 525 01f0 32       		.byte	50
+ 526 01f1 24       		.byte	36
+ 527 01f2 36       		.byte	54
+ 528 01f3 20       		.byte	32
+ 529 01f4 37       		.byte	55
+ 530 01f5 02       		.byte	2
+ 531 01f6 38       		.byte	56
+ 532 01f7 04       		.byte	4
+ 533 01f8 3B       		.byte	59
+ 534 01f9 81       		.byte	-127
+ 535 01fa 3D       		.byte	61
+ 536 01fb 0A       		.byte	10
+ 537 01fc 86       		.byte	-122
+ 538 01fd 10       		.byte	16
+ 539 01fe 99       		.byte	-103
+ 540 01ff 80       		.byte	-128
+ 541 0200 A0       		.byte	-96
+ 542 0201 20       		.byte	32
+ 543 0202 AB       		.byte	-85
+ 544 0203 80       		.byte	-128
+ 545 0204 AF       		.byte	-81
+ 546 0205 10       		.byte	16
+ 547 0206 B4       		.byte	-76
+ 548 0207 20       		.byte	32
+ 549 0208 C0       		.byte	-64
+ 550 0209 EF       		.byte	-17
+ 551 020a C2       		.byte	-62
+ 552 020b EA       		.byte	-22
+ 553 020c C4       		.byte	-60
+ 554 020d 02       		.byte	2
+ 555 020e CA       		.byte	-54
+ 556 020f 4B       		.byte	75
+ 557 0210 CC       		.byte	-52
+ 558 0211 A6       		.byte	-90
+ 559 0212 CE       		.byte	-50
+ 560 0213 CB       		.byte	-53
+ 561 0214 E4       		.byte	-28
+ 562 0215 08       		.byte	8
+ 563 0216 EC       		.byte	-20
+ 564 0217 10       		.byte	16
+ 565 0218 04       		.byte	4
+ 566 0219 FE       		.byte	-2
+ 567 021a 05       		.byte	5
+ 568 021b 04       		.byte	4
+ 569 021c 06       		.byte	6
+ 570 021d 01       		.byte	1
+ARM GAS  C:\Users\DQUESA~1\AppData\Local\Temp\ccj6mW1c.s 			page 11
+
+
+ 571 021e 08       		.byte	8
+ 572 021f 96       		.byte	-106
+ 573 0220 0A       		.byte	10
+ 574 0221 68       		.byte	104
+ 575 0222 0B       		.byte	11
+ 576 0223 03       		.byte	3
+ 577 0224 0C       		.byte	12
+ 578 0225 0E       		.byte	14
+ 579 0226 0E       		.byte	14
+ 580 0227 F0       		.byte	-16
+ 581 0228 10       		.byte	16
+ 582 0229 A3       		.byte	-93
+ 583 022a 12       		.byte	18
+ 584 022b 5C       		.byte	92
+ 585 022c 15       		.byte	21
+ 586 022d 04       		.byte	4
+ 587 022e 16       		.byte	22
+ 588 022f 01       		.byte	1
+ 589 0230 18       		.byte	24
+ 590 0231 C5       		.byte	-59
+ 591 0232 19       		.byte	25
+ 592 0233 01       		.byte	1
+ 593 0234 1A       		.byte	26
+ 594 0235 3A       		.byte	58
+ 595 0236 1D       		.byte	29
+ 596 0237 04       		.byte	4
+ 597 0238 23       		.byte	35
+ 598 0239 01       		.byte	1
+ 599 023a 27       		.byte	39
+ 600 023b 08       		.byte	8
+ 601 023c 28       		.byte	40
+ 602 023d 7F       		.byte	127
+ 603 023e 2B       		.byte	43
+ 604 023f 04       		.byte	4
+ 605 0240 2D       		.byte	45
+ 606 0241 04       		.byte	4
+ 607 0242 32       		.byte	50
+ 608 0243 FF       		.byte	-1
+ 609 0244 33       		.byte	51
+ 610 0245 0C       		.byte	12
+ 611 0246 35       		.byte	53
+ 612 0247 02       		.byte	2
+ 613 0248 37       		.byte	55
+ 614 0249 01       		.byte	1
+ 615 024a 3E       		.byte	62
+ 616 024b 04       		.byte	4
+ 617 024c 3F       		.byte	63
+ 618 024d 40       		.byte	64
+ 619 024e 40       		.byte	64
+ 620 024f 14       		.byte	20
+ 621 0250 41       		.byte	65
+ 622 0251 05       		.byte	5
+ 623 0252 49       		.byte	73
+ 624 0253 FF       		.byte	-1
+ 625 0254 4A       		.byte	74
+ 626 0255 FF       		.byte	-1
+ 627 0256 4B       		.byte	75
+ARM GAS  C:\Users\DQUESA~1\AppData\Local\Temp\ccj6mW1c.s 			page 12
+
+
+ 628 0257 FF       		.byte	-1
+ 629 0258 4D       		.byte	77
+ 630 0259 A0       		.byte	-96
+ 631 025a 4F       		.byte	79
+ 632 025b 01       		.byte	1
+ 633 025c 50       		.byte	80
+ 634 025d 18       		.byte	24
+ 635 025e 52       		.byte	82
+ 636 025f 80       		.byte	-128
+ 637 0260 58       		.byte	88
+ 638 0261 04       		.byte	4
+ 639 0262 59       		.byte	89
+ 640 0263 04       		.byte	4
+ 641 0264 5A       		.byte	90
+ 642 0265 04       		.byte	4
+ 643 0266 5B       		.byte	91
+ 644 0267 04       		.byte	4
+ 645 0268 5C       		.byte	92
+ 646 0269 10       		.byte	16
+ 647 026a 5D       		.byte	93
+ 648 026b 11       		.byte	17
+ 649 026c 5F       		.byte	95
+ 650 026d 01       		.byte	1
+ 651 026e 60       		.byte	96
+ 652 026f 40       		.byte	64
+ 653 0270 62       		.byte	98
+ 654 0271 80       		.byte	-128
+ 655 0272 64       		.byte	100
+ 656 0273 40       		.byte	64
+ 657 0274 65       		.byte	101
+ 658 0275 40       		.byte	64
+ 659 0276 66       		.byte	102
+ 660 0277 80       		.byte	-128
+ 661 0278 68       		.byte	104
+ 662 0279 40       		.byte	64
+ 663 027a 6A       		.byte	106
+ 664 027b 80       		.byte	-128
+ 665 027c 6C       		.byte	108
+ 666 027d 40       		.byte	64
+ 667 027e 6D       		.byte	109
+ 668 027f 20       		.byte	32
+ 669 0280 6E       		.byte	110
+ 670 0281 80       		.byte	-128
+ 671 0282 85       		.byte	-123
+ 672 0283 0A       		.byte	10
+ 673 0284 8D       		.byte	-115
+ 674 0285 01       		.byte	1
+ 675 0286 95       		.byte	-107
+ 676 0287 0C       		.byte	12
+ 677 0288 99       		.byte	-103
+ 678 0289 07       		.byte	7
+ 679 028a A1       		.byte	-95
+ 680 028b 0C       		.byte	12
+ 681 028c A5       		.byte	-91
+ 682 028d 01       		.byte	1
+ 683 028e B1       		.byte	-79
+ 684 028f 01       		.byte	1
+ARM GAS  C:\Users\DQUESA~1\AppData\Local\Temp\ccj6mW1c.s 			page 13
+
+
+ 685 0290 B3       		.byte	-77
+ 686 0291 0E       		.byte	14
+ 687 0292 B9       		.byte	-71
+ 688 0293 0A       		.byte	10
+ 689 0294 BF       		.byte	-65
+ 690 0295 01       		.byte	1
+ 691 0296 C0       		.byte	-64
+ 692 0297 45       		.byte	69
+ 693 0298 C1       		.byte	-63
+ 694 0299 01       		.byte	1
+ 695 029a C5       		.byte	-59
+ 696 029b 4C       		.byte	76
+ 697 029c C6       		.byte	-58
+ 698 029d 32       		.byte	50
+ 699 029e C7       		.byte	-57
+ 700 029f 0E       		.byte	14
+ 701 02a0 C8       		.byte	-56
+ 702 02a1 1F       		.byte	31
+ 703 02a2 C9       		.byte	-55
+ 704 02a3 FF       		.byte	-1
+ 705 02a4 CA       		.byte	-54
+ 706 02a5 FF       		.byte	-1
+ 707 02a6 CB       		.byte	-53
+ 708 02a7 FF       		.byte	-1
+ 709 02a8 CD       		.byte	-51
+ 710 02a9 AF       		.byte	-81
+ 711 02aa CE       		.byte	-50
+ 712 02ab 07       		.byte	7
+ 713 02ac CF       		.byte	-49
+ 714 02ad 01       		.byte	1
+ 715 02ae D0       		.byte	-48
+ 716 02af 18       		.byte	24
+ 717 02b0 D9       		.byte	-39
+ 718 02b1 04       		.byte	4
+ 719 02b2 DA       		.byte	-38
+ 720 02b3 04       		.byte	4
+ 721 02b4 DC       		.byte	-36
+ 722 02b5 10       		.byte	16
+ 723 02b6 DD       		.byte	-35
+ 724 02b7 01       		.byte	1
+ 725 02b8 DF       		.byte	-33
+ 726 02b9 01       		.byte	1
+ 727 02ba E0       		.byte	-32
+ 728 02bb 40       		.byte	64
+ 729 02bc E2       		.byte	-30
+ 730 02bd 80       		.byte	-128
+ 731 02be E4       		.byte	-28
+ 732 02bf 40       		.byte	64
+ 733 02c0 E5       		.byte	-27
+ 734 02c1 40       		.byte	64
+ 735 02c2 E6       		.byte	-26
+ 736 02c3 80       		.byte	-128
+ 737 02c4 E8       		.byte	-24
+ 738 02c5 40       		.byte	64
+ 739 02c6 EA       		.byte	-22
+ 740 02c7 80       		.byte	-128
+ 741 02c8 EC       		.byte	-20
+ARM GAS  C:\Users\DQUESA~1\AppData\Local\Temp\ccj6mW1c.s 			page 14
+
+
+ 742 02c9 40       		.byte	64
+ 743 02ca ED       		.byte	-19
+ 744 02cb 20       		.byte	32
+ 745 02cc EE       		.byte	-18
+ 746 02cd 80       		.byte	-128
+ 747 02ce 00       		.byte	0
+ 748 02cf 04       		.byte	4
+ 749 02d0 01       		.byte	1
+ 750 02d1 A0       		.byte	-96
+ 751 02d2 03       		.byte	3
+ 752 02d3 04       		.byte	4
+ 753 02d4 09       		.byte	9
+ 754 02d5 08       		.byte	8
+ 755 02d6 0A       		.byte	10
+ 756 02d7 88       		.byte	-120
+ 757 02d8 0B       		.byte	11
+ 758 02d9 80       		.byte	-128
+ 759 02da 10       		.byte	16
+ 760 02db 04       		.byte	4
+ 761 02dc 13       		.byte	19
+ 762 02dd 20       		.byte	32
+ 763 02de 19       		.byte	25
+ 764 02df 08       		.byte	8
+ 765 02e0 20       		.byte	32
+ 766 02e1 10       		.byte	16
+ 767 02e2 21       		.byte	33
+ 768 02e3 68       		.byte	104
+ 769 02e4 23       		.byte	35
+ 770 02e5 02       		.byte	2
+ 771 02e6 24       		.byte	36
+ 772 02e7 40       		.byte	64
+ 773 02e8 26       		.byte	38
+ 774 02e9 02       		.byte	2
+ 775 02ea 27       		.byte	39
+ 776 02eb 20       		.byte	32
+ 777 02ec 29       		.byte	41
+ 778 02ed A9       		.byte	-87
+ 779 02ee 2F       		.byte	47
+ 780 02ef 60       		.byte	96
+ 781 02f0 31       		.byte	49
+ 782 02f1 20       		.byte	32
+ 783 02f2 32       		.byte	50
+ 784 02f3 44       		.byte	68
+ 785 02f4 36       		.byte	54
+ 786 02f5 08       		.byte	8
+ 787 02f6 37       		.byte	55
+ 788 02f7 20       		.byte	32
+ 789 02f8 38       		.byte	56
+ 790 02f9 14       		.byte	20
+ 791 02fa 3C       		.byte	60
+ 792 02fb 04       		.byte	4
+ 793 02fc 3F       		.byte	63
+ 794 02fd 80       		.byte	-128
+ 795 02fe 40       		.byte	64
+ 796 02ff 40       		.byte	64
+ 797 0300 41       		.byte	65
+ 798 0301 40       		.byte	64
+ARM GAS  C:\Users\DQUESA~1\AppData\Local\Temp\ccj6mW1c.s 			page 15
+
+
+ 799 0302 47       		.byte	71
+ 800 0303 42       		.byte	66
+ 801 0304 48       		.byte	72
+ 802 0305 01       		.byte	1
+ 803 0306 4E       		.byte	78
+ 804 0307 02       		.byte	2
+ 805 0308 4F       		.byte	79
+ 806 0309 06       		.byte	6
+ 807 030a 56       		.byte	86
+ 808 030b A8       		.byte	-88
+ 809 030c 57       		.byte	87
+ 810 030d 60       		.byte	96
+ 811 030e 71       		.byte	113
+ 812 030f 01       		.byte	1
+ 813 0310 90       		.byte	-112
+ 814 0311 04       		.byte	4
+ 815 0312 92       		.byte	-110
+ 816 0313 08       		.byte	8
+ 817 0314 93       		.byte	-109
+ 818 0315 81       		.byte	-127
+ 819 0316 99       		.byte	-103
+ 820 0317 80       		.byte	-128
+ 821 0318 9B       		.byte	-101
+ 822 0319 44       		.byte	68
+ 823 031a 9F       		.byte	-97
+ 824 031b 20       		.byte	32
+ 825 031c A0       		.byte	-96
+ 826 031d 01       		.byte	1
+ 827 031e A2       		.byte	-94
+ 828 031f 08       		.byte	8
+ 829 0320 C0       		.byte	-64
+ 830 0321 07       		.byte	7
+ 831 0322 C2       		.byte	-62
+ 832 0323 0E       		.byte	14
+ 833 0324 C4       		.byte	-60
+ 834 0325 02       		.byte	2
+ 835 0326 CA       		.byte	-54
+ 836 0327 CF       		.byte	-49
+ 837 0328 CC       		.byte	-52
+ 838 0329 6E       		.byte	110
+ 839 032a CE       		.byte	-50
+ 840 032b 56       		.byte	86
+ 841 032c D0       		.byte	-48
+ 842 032d 99       		.byte	-103
+ 843 032e D2       		.byte	-46
+ 844 032f 18       		.byte	24
+ 845 0330 02       		.byte	2
+ 846 0331 02       		.byte	2
+ 847 0332 03       		.byte	3
+ 848 0333 01       		.byte	1
+ 849 0334 14       		.byte	20
+ 850 0335 01       		.byte	1
+ 851 0336 18       		.byte	24
+ 852 0337 04       		.byte	4
+ 853 0338 1E       		.byte	30
+ 854 0339 04       		.byte	4
+ 855 033a 21       		.byte	33
+ARM GAS  C:\Users\DQUESA~1\AppData\Local\Temp\ccj6mW1c.s 			page 16
+
+
+ 856 033b 02       		.byte	2
+ 857 033c 26       		.byte	38
+ 858 033d 09       		.byte	9
+ 859 033e 2F       		.byte	47
+ 860 033f 02       		.byte	2
+ 861 0340 30       		.byte	48
+ 862 0341 04       		.byte	4
+ 863 0342 31       		.byte	49
+ 864 0343 02       		.byte	2
+ 865 0344 32       		.byte	50
+ 866 0345 08       		.byte	8
+ 867 0346 34       		.byte	52
+ 868 0347 01       		.byte	1
+ 869 0348 35       		.byte	53
+ 870 0349 01       		.byte	1
+ 871 034a 36       		.byte	54
+ 872 034b 02       		.byte	2
+ 873 034c 3E       		.byte	62
+ 874 034d 11       		.byte	17
+ 875 034e 3F       		.byte	63
+ 876 034f 01       		.byte	1
+ 877 0350 54       		.byte	84
+ 878 0351 0F       		.byte	15
+ 879 0352 58       		.byte	88
+ 880 0353 04       		.byte	4
+ 881 0354 59       		.byte	89
+ 882 0355 04       		.byte	4
+ 883 0356 5B       		.byte	91
+ 884 0357 04       		.byte	4
+ 885 0358 5C       		.byte	92
+ 886 0359 11       		.byte	17
+ 887 035a 5D       		.byte	93
+ 888 035b 10       		.byte	16
+ 889 035c 5F       		.byte	95
+ 890 035d 05       		.byte	5
+ 891 035e 81       		.byte	-127
+ 892 035f 04       		.byte	4
+ 893 0360 83       		.byte	-125
+ 894 0361 01       		.byte	1
+ 895 0362 93       		.byte	-109
+ 896 0363 05       		.byte	5
+ 897 0364 99       		.byte	-103
+ 898 0365 05       		.byte	5
+ 899 0366 A9       		.byte	-87
+ 900 0367 02       		.byte	2
+ 901 0368 AD       		.byte	-83
+ 902 0369 02       		.byte	2
+ 903 036a B1       		.byte	-79
+ 904 036b 02       		.byte	2
+ 905 036c B5       		.byte	-75
+ 906 036d 04       		.byte	4
+ 907 036e B7       		.byte	-73
+ 908 036f 01       		.byte	1
+ 909 0370 B9       		.byte	-71
+ 910 0371 02       		.byte	2
+ 911 0372 BF       		.byte	-65
+ 912 0373 50       		.byte	80
+ARM GAS  C:\Users\DQUESA~1\AppData\Local\Temp\ccj6mW1c.s 			page 17
+
+
+ 913 0374 D4       		.byte	-44
+ 914 0375 0F       		.byte	15
+ 915 0376 D9       		.byte	-39
+ 916 0377 04       		.byte	4
+ 917 0378 DB       		.byte	-37
+ 918 0379 04       		.byte	4
+ 919 037a DC       		.byte	-36
+ 920 037b 10       		.byte	16
+ 921 037c DD       		.byte	-35
+ 922 037d 10       		.byte	16
+ 923 037e DF       		.byte	-33
+ 924 037f 01       		.byte	1
+ 925 0380 06       		.byte	6
+ 926 0381 80       		.byte	-128
+ 927 0382 0D       		.byte	13
+ 928 0383 20       		.byte	32
+ 929 0384 0E       		.byte	14
+ 930 0385 20       		.byte	32
+ 931 0386 0F       		.byte	15
+ 932 0387 02       		.byte	2
+ 933 0388 16       		.byte	22
+ 934 0389 20       		.byte	32
+ 935 038a 1E       		.byte	30
+ 936 038b 68       		.byte	104
+ 937 038c 1F       		.byte	31
+ 938 038d 80       		.byte	-128
+ 939 038e 21       		.byte	33
+ 940 038f 02       		.byte	2
+ 941 0390 22       		.byte	34
+ 942 0391 50       		.byte	80
+ 943 0392 25       		.byte	37
+ 944 0393 20       		.byte	32
+ 945 0394 26       		.byte	38
+ 946 0395 01       		.byte	1
+ 947 0396 2A       		.byte	42
+ 948 0397 A0       		.byte	-96
+ 949 0398 2E       		.byte	46
+ 950 0399 80       		.byte	-128
+ 951 039a 2F       		.byte	47
+ 952 039b 80       		.byte	-128
+ 953 039c 31       		.byte	49
+ 954 039d 22       		.byte	34
+ 955 039e 3B       		.byte	59
+ 956 039f 01       		.byte	1
+ 957 03a0 3F       		.byte	63
+ 958 03a1 02       		.byte	2
+ 959 03a2 58       		.byte	88
+ 960 03a3 04       		.byte	4
+ 961 03a4 59       		.byte	89
+ 962 03a5 01       		.byte	1
+ 963 03a6 5A       		.byte	90
+ 964 03a7 A8       		.byte	-88
+ 965 03a8 5E       		.byte	94
+ 966 03a9 4A       		.byte	74
+ 967 03aa 5F       		.byte	95
+ 968 03ab 20       		.byte	32
+ 969 03ac 66       		.byte	102
+ARM GAS  C:\Users\DQUESA~1\AppData\Local\Temp\ccj6mW1c.s 			page 18
+
+
+ 970 03ad 08       		.byte	8
+ 971 03ae 67       		.byte	103
+ 972 03af 04       		.byte	4
+ 973 03b0 7E       		.byte	126
+ 974 03b1 04       		.byte	4
+ 975 03b2 82       		.byte	-126
+ 976 03b3 80       		.byte	-128
+ 977 03b4 83       		.byte	-125
+ 978 03b5 20       		.byte	32
+ 979 03b6 90       		.byte	-112
+ 980 03b7 04       		.byte	4
+ 981 03b8 93       		.byte	-109
+ 982 03b9 05       		.byte	5
+ 983 03ba 98       		.byte	-104
+ 984 03bb 04       		.byte	4
+ 985 03bc 9A       		.byte	-102
+ 986 03bd A8       		.byte	-88
+ 987 03be A3       		.byte	-93
+ 988 03bf 01       		.byte	1
+ 989 03c0 C0       		.byte	-64
+ 990 03c1 10       		.byte	16
+ 991 03c2 C2       		.byte	-62
+ 992 03c3 E0       		.byte	-32
+ 993 03c4 C4       		.byte	-60
+ 994 03c5 20       		.byte	32
+ 995 03c6 CA       		.byte	-54
+ 996 03c7 9C       		.byte	-100
+ 997 03c8 CC       		.byte	-52
+ 998 03c9 05       		.byte	5
+ 999 03ca CE       		.byte	-50
+ 1000 03cb 81       		.byte	-127
+ 1001 03cc D6       		.byte	-42
+ 1002 03cd FF       		.byte	-1
+ 1003 03ce D8       		.byte	-40
+ 1004 03cf 60       		.byte	96
+ 1005 03d0 DE       		.byte	-34
+ 1006 03d1 20       		.byte	32
+ 1007 03d2 E4       		.byte	-28
+ 1008 03d3 08       		.byte	8
+ 1009 03d4 A8       		.byte	-88
+ 1010 03d5 04       		.byte	4
+ 1011 03d6 A9       		.byte	-87
+ 1012 03d7 01       		.byte	1
+ 1013 03d8 01       		.byte	1
+ 1014 03d9 04       		.byte	4
+ 1015 03da 06       		.byte	6
+ 1016 03db 80       		.byte	-128
+ 1017 03dc 52       		.byte	82
+ 1018 03dd 80       		.byte	-128
+ 1019 03de C0       		.byte	-64
+ 1020 03df 30       		.byte	48
+ 1021 03e0 D4       		.byte	-44
+ 1022 03e1 20       		.byte	32
+ 1023 03e2 AA       		.byte	-86
+ 1024 03e3 80       		.byte	-128
+ 1025 03e4 AD       		.byte	-83
+ 1026 03e5 04       		.byte	4
+ARM GAS  C:\Users\DQUESA~1\AppData\Local\Temp\ccj6mW1c.s 			page 19
+
+
+ 1027 03e6 B6       		.byte	-74
+ 1028 03e7 80       		.byte	-128
+ 1029 03e8 EC       		.byte	-20
+ 1030 03e9 40       		.byte	64
+ 1031 03ea EE       		.byte	-18
+ 1032 03eb 20       		.byte	32
+ 1033 03ec 56       		.byte	86
+ 1034 03ed 02       		.byte	2
+ 1035 03ee 86       		.byte	-122
+ 1036 03ef 02       		.byte	2
+ 1037 03f0 D6       		.byte	-42
+ 1038 03f1 04       		.byte	4
+ 1039 03f2 00       		.byte	0
+ 1040 03f3 03       		.byte	3
+ 1041 03f4 08       		.byte	8
+ 1042 03f5 03       		.byte	3
+ 1043 03f6 0A       		.byte	10
+ 1044 03f7 02       		.byte	2
+ 1045 03f8 00       		.byte	0
+ 1046 03f9 7F       		.byte	127
+ 1047 03fa 7F       		.byte	127
+ 1048 03fb 00       		.byte	0
+ 1049 03fc 00       		.byte	0
+ 1050 03fd 00       		.byte	0
+ 1051 03fe 00       		.byte	0
+ 1052 03ff 00       		.byte	0
+ 1053 0400 00       		.byte	0
+ 1054 0401 0B       		.byte	11
+ 1055 0402 0B       		.byte	11
+ 1056 0403 00       		.byte	0
+ 1057 0404 00       		.byte	0
+ 1058 0405 00       		.byte	0
+ 1059 0406 00       		.byte	0
+ 1060 0407 00       		.byte	0
+ 1061 0408 00       		.byte	0
+ 1062 0409 02       		.byte	2
+ 1063 040a 02       		.byte	2
+ 1064 040b 00       		.byte	0
+ 1065 040c 02       		.byte	2
+ 1066 040d 00       		.byte	0
+ 1067 040e 00       		.byte	0
+ 1068 040f 00       		.byte	0
+ 1069 0410 03       		.byte	3
+ 1070 0411 04       		.byte	4
+ 1071 0412 04       		.byte	4
+ 1072 0413 00       		.byte	0
+ 1073 0414 04       		.byte	4
+ 1074 0415 00       		.byte	0
+ 1075 0416 00       		.byte	0
+ 1076 0417 00       		.byte	0
+ 1077              		.section	.cywolatch,"a",%progbits
+ 1078              		.align	2
+ 1079              		.type	cy_meta_wonvl, %object
+ 1080              		.size	cy_meta_wonvl, 4
+ 1081              	cy_meta_wonvl:
+ 1082 0000 BC       		.byte	-68
+ 1083 0001 90       		.byte	-112
+ARM GAS  C:\Users\DQUESA~1\AppData\Local\Temp\ccj6mW1c.s 			page 20
+
+
+ 1084 0002 AC       		.byte	-84
+ 1085 0003 AF       		.byte	-81
+ 1086              		.section	.cycustnvl,"a",%progbits
+ 1087              		.align	2
+ 1088              		.type	cy_meta_custnvl, %object
+ 1089              		.size	cy_meta_custnvl, 4
+ 1090              	cy_meta_custnvl:
+ 1091 0000 00       		.byte	0
+ 1092 0001 00       		.byte	0
+ 1093 0002 40       		.byte	64
+ 1094 0003 05       		.byte	5
+ 1095              		.section	.cymeta,"a",%progbits
+ 1096              		.align	2
+ 1097              		.type	cy_metadata, %object
+ 1098              		.size	cy_metadata, 12
+ 1099              	cy_metadata:
+ 1100 0000 00       		.byte	0
+ 1101 0001 01       		.byte	1
+ 1102 0002 2E       		.byte	46
+ 1103 0003 12       		.byte	18
+ 1104 0004 30       		.byte	48
+ 1105 0005 69       		.byte	105
+ 1106 0006 00       		.byte	0
+ 1107 0007 01       		.byte	1
+ 1108 0008 00       		.byte	0
+ 1109 0009 00       		.byte	0
+ 1110 000a 00       		.byte	0
+ 1111 000b 00       		.byte	0
+ 1112              		.section	.cyflashprotect,"a",%progbits
+ 1113              		.align	2
+ 1114              		.type	cy_meta_flashprotect, %object
+ 1115              		.size	cy_meta_flashprotect, 256
+ 1116              	cy_meta_flashprotect:
+ 1117 0000 00000000 		.space	256
+ 1117      00000000 
+ 1117      00000000 
+ 1117      00000000 
+ 1117      00000000 
+ 1118              		.text
+ 1119              	.Letext0:
+ 1120              		.file 1 "c:\\program files (x86)\\cypress\\psoc creator\\4.2\\psoc creator\\import\\gnu\\arm\\5.4.
+ 1121              		.file 2 "c:\\program files (x86)\\cypress\\psoc creator\\4.2\\psoc creator\\import\\gnu\\arm\\5.4.
+ 1122              		.file 3 "Generated_Source\\PSoC5\\cymetadata.c"
+ 1123              		.section	.debug_info,"",%progbits
+ 1124              	.Ldebug_info0:
+ 1125 0000 31010000 		.4byte	0x131
+ 1126 0004 0400     		.2byte	0x4
+ 1127 0006 00000000 		.4byte	.Ldebug_abbrev0
+ 1128 000a 04       		.byte	0x4
+ 1129 000b 01       		.uleb128 0x1
+ 1130 000c 24000000 		.4byte	.LASF17
+ 1131 0010 0C       		.byte	0xc
+ 1132 0011 C6010000 		.4byte	.LASF18
+ 1133 0015 69010000 		.4byte	.LASF19
+ 1134 0019 00000000 		.4byte	.Ldebug_line0
+ 1135 001d 02       		.uleb128 0x2
+ 1136 001e 01       		.byte	0x1
+ARM GAS  C:\Users\DQUESA~1\AppData\Local\Temp\ccj6mW1c.s 			page 21
+
+
+ 1137 001f 06       		.byte	0x6
+ 1138 0020 BA010000 		.4byte	.LASF0
+ 1139 0024 03       		.uleb128 0x3
+ 1140 0025 00000000 		.4byte	.LASF9
+ 1141 0029 01       		.byte	0x1
+ 1142 002a 1D       		.byte	0x1d
+ 1143 002b 2F000000 		.4byte	0x2f
+ 1144 002f 02       		.uleb128 0x2
+ 1145 0030 01       		.byte	0x1
+ 1146 0031 08       		.byte	0x8
+ 1147 0032 16000000 		.4byte	.LASF1
+ 1148 0036 02       		.uleb128 0x2
+ 1149 0037 02       		.byte	0x2
+ 1150 0038 05       		.byte	0x5
+ 1151 0039 5F010000 		.4byte	.LASF2
+ 1152 003d 02       		.uleb128 0x2
+ 1153 003e 02       		.byte	0x2
+ 1154 003f 07       		.byte	0x7
+ 1155 0040 C4000000 		.4byte	.LASF3
+ 1156 0044 02       		.uleb128 0x2
+ 1157 0045 04       		.byte	0x4
+ 1158 0046 05       		.byte	0x5
+ 1159 0047 B1010000 		.4byte	.LASF4
+ 1160 004b 02       		.uleb128 0x2
+ 1161 004c 04       		.byte	0x4
+ 1162 004d 07       		.byte	0x7
+ 1163 004e B2000000 		.4byte	.LASF5
+ 1164 0052 02       		.uleb128 0x2
+ 1165 0053 08       		.byte	0x8
+ 1166 0054 05       		.byte	0x5
+ 1167 0055 51010000 		.4byte	.LASF6
+ 1168 0059 02       		.uleb128 0x2
+ 1169 005a 08       		.byte	0x8
+ 1170 005b 07       		.byte	0x7
+ 1171 005c 06010000 		.4byte	.LASF7
+ 1172 0060 04       		.uleb128 0x4
+ 1173 0061 04       		.byte	0x4
+ 1174 0062 05       		.byte	0x5
+ 1175 0063 696E7400 		.ascii	"int\000"
+ 1176 0067 02       		.uleb128 0x2
+ 1177 0068 04       		.byte	0x4
+ 1178 0069 07       		.byte	0x7
+ 1179 006a F9000000 		.4byte	.LASF8
+ 1180 006e 03       		.uleb128 0x3
+ 1181 006f 1D010000 		.4byte	.LASF10
+ 1182 0073 02       		.byte	0x2
+ 1183 0074 18       		.byte	0x18
+ 1184 0075 24000000 		.4byte	0x24
+ 1185 0079 05       		.uleb128 0x5
+ 1186 007a 91000000 		.4byte	0x91
+ 1187 007e 8A000000 		.4byte	0x8a
+ 1188 0082 06       		.uleb128 0x6
+ 1189 0083 8A000000 		.4byte	0x8a
+ 1190 0087 1704     		.2byte	0x417
+ 1191 0089 00       		.byte	0
+ 1192 008a 02       		.uleb128 0x2
+ 1193 008b 04       		.byte	0x4
+ARM GAS  C:\Users\DQUESA~1\AppData\Local\Temp\ccj6mW1c.s 			page 22
+
+
+ 1194 008c 07       		.byte	0x7
+ 1195 008d 48010000 		.4byte	.LASF11
+ 1196 0091 07       		.uleb128 0x7
+ 1197 0092 6E000000 		.4byte	0x6e
+ 1198 0096 08       		.uleb128 0x8
+ 1199 0097 E7000000 		.4byte	.LASF12
+ 1200 009b 03       		.byte	0x3
+ 1201 009c 1F       		.byte	0x1f
+ 1202 009d A7000000 		.4byte	0xa7
+ 1203 00a1 05       		.uleb128 0x5
+ 1204 00a2 03       		.byte	0x3
+ 1205 00a3 00000000 		.4byte	cy_meta_configecc
+ 1206 00a7 07       		.uleb128 0x7
+ 1207 00a8 79000000 		.4byte	0x79
+ 1208 00ac 05       		.uleb128 0x5
+ 1209 00ad 91000000 		.4byte	0x91
+ 1210 00b1 BC000000 		.4byte	0xbc
+ 1211 00b5 09       		.uleb128 0x9
+ 1212 00b6 8A000000 		.4byte	0x8a
+ 1213 00ba 03       		.byte	0x3
+ 1214 00bb 00       		.byte	0
+ 1215 00bc 08       		.uleb128 0x8
+ 1216 00bd D7000000 		.4byte	.LASF13
+ 1217 00c1 03       		.byte	0x3
+ 1218 00c2 AF       		.byte	0xaf
+ 1219 00c3 CD000000 		.4byte	0xcd
+ 1220 00c7 05       		.uleb128 0x5
+ 1221 00c8 03       		.byte	0x3
+ 1222 00c9 00000000 		.4byte	cy_meta_custnvl
+ 1223 00cd 07       		.uleb128 0x7
+ 1224 00ce AC000000 		.4byte	0xac
+ 1225 00d2 08       		.uleb128 0x8
+ 1226 00d3 3A010000 		.4byte	.LASF14
+ 1227 00d7 03       		.byte	0x3
+ 1228 00d8 BD       		.byte	0xbd
+ 1229 00d9 E3000000 		.4byte	0xe3
+ 1230 00dd 05       		.uleb128 0x5
+ 1231 00de 03       		.byte	0x3
+ 1232 00df 00000000 		.4byte	cy_meta_wonvl
+ 1233 00e3 07       		.uleb128 0x7
+ 1234 00e4 AC000000 		.4byte	0xac
+ 1235 00e8 05       		.uleb128 0x5
+ 1236 00e9 91000000 		.4byte	0x91
+ 1237 00ed F8000000 		.4byte	0xf8
+ 1238 00f1 09       		.uleb128 0x9
+ 1239 00f2 8A000000 		.4byte	0x8a
+ 1240 00f6 FF       		.byte	0xff
+ 1241 00f7 00       		.byte	0
+ 1242 00f8 08       		.uleb128 0x8
+ 1243 00f9 25010000 		.4byte	.LASF15
+ 1244 00fd 03       		.byte	0x3
+ 1245 00fe CB       		.byte	0xcb
+ 1246 00ff 09010000 		.4byte	0x109
+ 1247 0103 05       		.uleb128 0x5
+ 1248 0104 03       		.byte	0x3
+ 1249 0105 00000000 		.4byte	cy_meta_flashprotect
+ 1250 0109 07       		.uleb128 0x7
+ARM GAS  C:\Users\DQUESA~1\AppData\Local\Temp\ccj6mW1c.s 			page 23
+
+
+ 1251 010a E8000000 		.4byte	0xe8
+ 1252 010e 05       		.uleb128 0x5
+ 1253 010f 91000000 		.4byte	0x91
+ 1254 0113 1E010000 		.4byte	0x11e
+ 1255 0117 09       		.uleb128 0x9
+ 1256 0118 8A000000 		.4byte	0x8a
+ 1257 011c 0B       		.byte	0xb
+ 1258 011d 00       		.byte	0
+ 1259 011e 08       		.uleb128 0x8
+ 1260 011f 0A000000 		.4byte	.LASF16
+ 1261 0123 03       		.byte	0x3
+ 1262 0124 F8       		.byte	0xf8
+ 1263 0125 2F010000 		.4byte	0x12f
+ 1264 0129 05       		.uleb128 0x5
+ 1265 012a 03       		.byte	0x3
+ 1266 012b 00000000 		.4byte	cy_metadata
+ 1267 012f 07       		.uleb128 0x7
+ 1268 0130 0E010000 		.4byte	0x10e
+ 1269 0134 00       		.byte	0
+ 1270              		.section	.debug_abbrev,"",%progbits
+ 1271              	.Ldebug_abbrev0:
+ 1272 0000 01       		.uleb128 0x1
+ 1273 0001 11       		.uleb128 0x11
+ 1274 0002 01       		.byte	0x1
+ 1275 0003 25       		.uleb128 0x25
+ 1276 0004 0E       		.uleb128 0xe
+ 1277 0005 13       		.uleb128 0x13
+ 1278 0006 0B       		.uleb128 0xb
+ 1279 0007 03       		.uleb128 0x3
+ 1280 0008 0E       		.uleb128 0xe
+ 1281 0009 1B       		.uleb128 0x1b
+ 1282 000a 0E       		.uleb128 0xe
+ 1283 000b 10       		.uleb128 0x10
+ 1284 000c 17       		.uleb128 0x17
+ 1285 000d 00       		.byte	0
+ 1286 000e 00       		.byte	0
+ 1287 000f 02       		.uleb128 0x2
+ 1288 0010 24       		.uleb128 0x24
+ 1289 0011 00       		.byte	0
+ 1290 0012 0B       		.uleb128 0xb
+ 1291 0013 0B       		.uleb128 0xb
+ 1292 0014 3E       		.uleb128 0x3e
+ 1293 0015 0B       		.uleb128 0xb
+ 1294 0016 03       		.uleb128 0x3
+ 1295 0017 0E       		.uleb128 0xe
+ 1296 0018 00       		.byte	0
+ 1297 0019 00       		.byte	0
+ 1298 001a 03       		.uleb128 0x3
+ 1299 001b 16       		.uleb128 0x16
+ 1300 001c 00       		.byte	0
+ 1301 001d 03       		.uleb128 0x3
+ 1302 001e 0E       		.uleb128 0xe
+ 1303 001f 3A       		.uleb128 0x3a
+ 1304 0020 0B       		.uleb128 0xb
+ 1305 0021 3B       		.uleb128 0x3b
+ 1306 0022 0B       		.uleb128 0xb
+ 1307 0023 49       		.uleb128 0x49
+ARM GAS  C:\Users\DQUESA~1\AppData\Local\Temp\ccj6mW1c.s 			page 24
+
+
+ 1308 0024 13       		.uleb128 0x13
+ 1309 0025 00       		.byte	0
+ 1310 0026 00       		.byte	0
+ 1311 0027 04       		.uleb128 0x4
+ 1312 0028 24       		.uleb128 0x24
+ 1313 0029 00       		.byte	0
+ 1314 002a 0B       		.uleb128 0xb
+ 1315 002b 0B       		.uleb128 0xb
+ 1316 002c 3E       		.uleb128 0x3e
+ 1317 002d 0B       		.uleb128 0xb
+ 1318 002e 03       		.uleb128 0x3
+ 1319 002f 08       		.uleb128 0x8
+ 1320 0030 00       		.byte	0
+ 1321 0031 00       		.byte	0
+ 1322 0032 05       		.uleb128 0x5
+ 1323 0033 01       		.uleb128 0x1
+ 1324 0034 01       		.byte	0x1
+ 1325 0035 49       		.uleb128 0x49
+ 1326 0036 13       		.uleb128 0x13
+ 1327 0037 01       		.uleb128 0x1
+ 1328 0038 13       		.uleb128 0x13
+ 1329 0039 00       		.byte	0
+ 1330 003a 00       		.byte	0
+ 1331 003b 06       		.uleb128 0x6
+ 1332 003c 21       		.uleb128 0x21
+ 1333 003d 00       		.byte	0
+ 1334 003e 49       		.uleb128 0x49
+ 1335 003f 13       		.uleb128 0x13
+ 1336 0040 2F       		.uleb128 0x2f
+ 1337 0041 05       		.uleb128 0x5
+ 1338 0042 00       		.byte	0
+ 1339 0043 00       		.byte	0
+ 1340 0044 07       		.uleb128 0x7
+ 1341 0045 26       		.uleb128 0x26
+ 1342 0046 00       		.byte	0
+ 1343 0047 49       		.uleb128 0x49
+ 1344 0048 13       		.uleb128 0x13
+ 1345 0049 00       		.byte	0
+ 1346 004a 00       		.byte	0
+ 1347 004b 08       		.uleb128 0x8
+ 1348 004c 34       		.uleb128 0x34
+ 1349 004d 00       		.byte	0
+ 1350 004e 03       		.uleb128 0x3
+ 1351 004f 0E       		.uleb128 0xe
+ 1352 0050 3A       		.uleb128 0x3a
+ 1353 0051 0B       		.uleb128 0xb
+ 1354 0052 3B       		.uleb128 0x3b
+ 1355 0053 0B       		.uleb128 0xb
+ 1356 0054 49       		.uleb128 0x49
+ 1357 0055 13       		.uleb128 0x13
+ 1358 0056 3F       		.uleb128 0x3f
+ 1359 0057 19       		.uleb128 0x19
+ 1360 0058 02       		.uleb128 0x2
+ 1361 0059 18       		.uleb128 0x18
+ 1362 005a 00       		.byte	0
+ 1363 005b 00       		.byte	0
+ 1364 005c 09       		.uleb128 0x9
+ARM GAS  C:\Users\DQUESA~1\AppData\Local\Temp\ccj6mW1c.s 			page 25
+
+
+ 1365 005d 21       		.uleb128 0x21
+ 1366 005e 00       		.byte	0
+ 1367 005f 49       		.uleb128 0x49
+ 1368 0060 13       		.uleb128 0x13
+ 1369 0061 2F       		.uleb128 0x2f
+ 1370 0062 0B       		.uleb128 0xb
+ 1371 0063 00       		.byte	0
+ 1372 0064 00       		.byte	0
+ 1373 0065 00       		.byte	0
+ 1374              		.section	.debug_aranges,"",%progbits
+ 1375 0000 14000000 		.4byte	0x14
+ 1376 0004 0200     		.2byte	0x2
+ 1377 0006 00000000 		.4byte	.Ldebug_info0
+ 1378 000a 04       		.byte	0x4
+ 1379 000b 00       		.byte	0
+ 1380 000c 0000     		.2byte	0
+ 1381 000e 0000     		.2byte	0
+ 1382 0010 00000000 		.4byte	0
+ 1383 0014 00000000 		.4byte	0
+ 1384              		.section	.debug_line,"",%progbits
+ 1385              	.Ldebug_line0:
+ 1386 0000 3D010000 		.section	.debug_str,"MS",%progbits,1
+ 1386      02003701 
+ 1386      00000201 
+ 1386      FB0E0D00 
+ 1386      01010101 
+ 1387              	.LASF9:
+ 1388 0000 5F5F7569 		.ascii	"__uint8_t\000"
+ 1388      6E74385F 
+ 1388      7400
+ 1389              	.LASF16:
+ 1390 000a 63795F6D 		.ascii	"cy_metadata\000"
+ 1390      65746164 
+ 1390      61746100 
+ 1391              	.LASF1:
+ 1392 0016 756E7369 		.ascii	"unsigned char\000"
+ 1392      676E6564 
+ 1392      20636861 
+ 1392      7200
+ 1393              	.LASF17:
+ 1394 0024 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
+ 1394      43313120 
+ 1394      352E342E 
+ 1394      31203230 
+ 1394      31363036 
+ 1395 0057 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m3 -mthumb -g -O"
+ 1395      20726576 
+ 1395      6973696F 
+ 1395      6E203233 
+ 1395      37373135 
+ 1396 008a 67202D66 		.ascii	"g -ffunction-sections -ffat-lto-objects\000"
+ 1396      66756E63 
+ 1396      74696F6E 
+ 1396      2D736563 
+ 1396      74696F6E 
+ 1397              	.LASF5:
+ 1398 00b2 6C6F6E67 		.ascii	"long unsigned int\000"
+ARM GAS  C:\Users\DQUESA~1\AppData\Local\Temp\ccj6mW1c.s 			page 26
+
+
+ 1398      20756E73 
+ 1398      69676E65 
+ 1398      6420696E 
+ 1398      7400
+ 1399              	.LASF3:
+ 1400 00c4 73686F72 		.ascii	"short unsigned int\000"
+ 1400      7420756E 
+ 1400      7369676E 
+ 1400      65642069 
+ 1400      6E7400
+ 1401              	.LASF13:
+ 1402 00d7 63795F6D 		.ascii	"cy_meta_custnvl\000"
+ 1402      6574615F 
+ 1402      63757374 
+ 1402      6E766C00 
+ 1403              	.LASF12:
+ 1404 00e7 63795F6D 		.ascii	"cy_meta_configecc\000"
+ 1404      6574615F 
+ 1404      636F6E66 
+ 1404      69676563 
+ 1404      6300
+ 1405              	.LASF8:
+ 1406 00f9 756E7369 		.ascii	"unsigned int\000"
+ 1406      676E6564 
+ 1406      20696E74 
+ 1406      00
+ 1407              	.LASF7:
+ 1408 0106 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 1408      206C6F6E 
+ 1408      6720756E 
+ 1408      7369676E 
+ 1408      65642069 
+ 1409              	.LASF10:
+ 1410 011d 75696E74 		.ascii	"uint8_t\000"
+ 1410      385F7400 
+ 1411              	.LASF15:
+ 1412 0125 63795F6D 		.ascii	"cy_meta_flashprotect\000"
+ 1412      6574615F 
+ 1412      666C6173 
+ 1412      6870726F 
+ 1412      74656374 
+ 1413              	.LASF14:
+ 1414 013a 63795F6D 		.ascii	"cy_meta_wonvl\000"
+ 1414      6574615F 
+ 1414      776F6E76 
+ 1414      6C00
+ 1415              	.LASF11:
+ 1416 0148 73697A65 		.ascii	"sizetype\000"
+ 1416      74797065 
+ 1416      00
+ 1417              	.LASF6:
+ 1418 0151 6C6F6E67 		.ascii	"long long int\000"
+ 1418      206C6F6E 
+ 1418      6720696E 
+ 1418      7400
+ 1419              	.LASF2:
+ 1420 015f 73686F72 		.ascii	"short int\000"
+ARM GAS  C:\Users\DQUESA~1\AppData\Local\Temp\ccj6mW1c.s 			page 27
+
+
+ 1420      7420696E 
+ 1420      7400
+ 1421              	.LASF19:
+ 1422 0169 433A5C55 		.ascii	"C:\\Users\\Dquesadas\\Documents\\PSoC Creator\\Work"
+ 1422      73657273 
+ 1422      5C447175 
+ 1422      65736164 
+ 1422      61735C44 
+ 1423 0197 73706163 		.ascii	"space01\\Controlador.cydsn\000"
+ 1423      6530315C 
+ 1423      436F6E74 
+ 1423      726F6C61 
+ 1423      646F722E 
+ 1424              	.LASF4:
+ 1425 01b1 6C6F6E67 		.ascii	"long int\000"
+ 1425      20696E74 
+ 1425      00
+ 1426              	.LASF0:
+ 1427 01ba 7369676E 		.ascii	"signed char\000"
+ 1427      65642063 
+ 1427      68617200 
+ 1428              	.LASF18:
+ 1429 01c6 47656E65 		.ascii	"Generated_Source\\PSoC5\\cymetadata.c\000"
+ 1429      72617465 
+ 1429      645F536F 
+ 1429      75726365 
+ 1429      5C50536F 
+ 1430              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran
