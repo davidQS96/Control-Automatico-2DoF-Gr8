@@ -1,0 +1,16 @@
+--------------- Rebuild Started: 10/30/2019 19:52:08 Project: main.c, Configuration: ARM GCC 5.4-2016-q2-update Debug ---------------
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/main.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c main.c -o .\CortexM3\ARM_GCC_541\Debug\main.o
+main.c: In function 'main':
+main.c:55:11: warning: variable 'mk' set but not used [-Wunused-but-set-variable]
+     float mk; 
+           ^
+main.c:39:11: warning: unused variable 'contador' [-Wunused-variable]
+     float contador;
+           ^
+main.c:36:10: warning: unused variable 'countStr' [-Wunused-variable]
+     char countStr[50];
+          ^
+main.c:33:14: warning: unused variable 'countPrev' [-Wunused-variable]
+     uint16_t countPrev  = MID_COUNT;
+              ^
+--------------- Rebuild Succeeded: 10/30/2019 19:52:09 ---------------
