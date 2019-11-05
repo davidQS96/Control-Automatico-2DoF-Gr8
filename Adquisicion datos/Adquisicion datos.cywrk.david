@@ -13,7 +13,7 @@
 <v>Output</v>
 </TreeKeys>
 <TreeStates>
-<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="Adquisicion datos\Design01">
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="Adquisicion datos\Design01\TopDesign">
 <ExpandedNodeIds>
 <v>Adquisicion datos</v>
 <v>Adquisicion datos\Design01</v>
@@ -169,15 +169,6 @@
 <v>Adquisicion datos\Design01\PSoC 5LP Architecture TRM</v>
 <v>Adquisicion datos\Design01\CY8C58LP Family Datasheet</v>
 <v>Adquisicion datos\Design01\System Reference Guides</v>
-<v>Adquisicion datos\Design01\System Reference Guides\cy_boot_v5_80</v>
-<v>Adquisicion datos\Design01\CharLCD_v2_20.pdf</v>
-<v>Adquisicion datos\Design01\cy_clock_v2_20.pdf</v>
-<v>Adquisicion datos\Design01\cy_constant_v1_0</v>
-<v>Adquisicion datos\Design01\cy_constant_v1_0\cy_constant_v1_0.pdf</v>
-<v>Adquisicion datos\Design01\cy_pins_v2_20</v>
-<v>Adquisicion datos\Design01\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
-<v>Adquisicion datos\Design01\QuadDec_v3_0.pdf</v>
-<v>Adquisicion datos\Design01\UART_v2_50.pdf</v>
 </ExpandedNodeIds>
 <VisibleNodeIds>
 <v>Adquisicion datos</v>
@@ -185,15 +176,6 @@
 <v>Adquisicion datos\Design01\PSoC 5LP Architecture TRM</v>
 <v>Adquisicion datos\Design01\CY8C58LP Family Datasheet</v>
 <v>Adquisicion datos\Design01\System Reference Guides</v>
-<v>Adquisicion datos\Design01\System Reference Guides\cy_boot_v5_80</v>
-<v>Adquisicion datos\Design01\CharLCD_v2_20.pdf</v>
-<v>Adquisicion datos\Design01\cy_clock_v2_20.pdf</v>
-<v>Adquisicion datos\Design01\cy_constant_v1_0</v>
-<v>Adquisicion datos\Design01\cy_constant_v1_0\cy_constant_v1_0.pdf</v>
-<v>Adquisicion datos\Design01\cy_pins_v2_20</v>
-<v>Adquisicion datos\Design01\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
-<v>Adquisicion datos\Design01\QuadDec_v3_0.pdf</v>
-<v>Adquisicion datos\Design01\UART_v2_50.pdf</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 </TreeStatesV2>
@@ -209,6 +191,8 @@
 <Unloaded />
 <OpenDocs>
 <name v=".\Design01.cydsn\main.c" />
+<name v=".\Design01.cydsn\Design01.cydwr" />
+<name v=".\Design01.cydsn\TopDesign\TopDesign.cysch" />
 </OpenDocs>
 <OpenDocsLayout><![CDATA[<?xml version="1.0"?><!--
 
@@ -216,7 +200,7 @@
   Copyright (c) 2001-2016 Actipro Software LLC.  All rights reserved.
   http://www.actiprosoftware.com
 
---><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1459, 711" SelectedTabbedMdiWindow="7d7374d7-62b2-4857-b55e-0be20ca7dc79"><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="9984f268-6fba-45b6-b618-b2a7171c15be" /><DocumentWindow Key="D:\OneDrive - Estudiantes ITCR\Escritorio\Adquisicion datos GIT\Adquisicion datos\Design01.cydsn\main.c" Guid="7d7374d7-62b2-4857-b55e-0be20ca7dc79" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
+--><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1198, 711" SelectedTabbedMdiWindow="cf42a8aa-aa0a-4243-9df7-1c4c80ca3af4"><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="9984f268-6fba-45b6-b618-b2a7171c15be" /><DocumentWindow Key="D:\OneDrive - Estudiantes ITCR\Escritorio\Adquisicion datos GIT\Adquisicion datos\Design01.cydsn\main.c" Guid="7d7374d7-62b2-4857-b55e-0be20ca7dc79" /><DocumentWindow Key="D:\OneDrive - Estudiantes ITCR\Escritorio\Adquisicion datos GIT\Adquisicion datos\Design01.cydsn\Design01.cydwr" Guid="dd367b79-114b-4272-b735-574ca39883c9" /><DocumentWindow Key="D:\OneDrive - Estudiantes ITCR\Escritorio\Adquisicion datos GIT\Adquisicion datos\Design01.cydsn\TopDesign\TopDesign.cysch" Guid="cf42a8aa-aa0a-4243-9df7-1c4c80ca3af4" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
 <config v="" />
 <AutoUpdate v="true" />
 </CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21>

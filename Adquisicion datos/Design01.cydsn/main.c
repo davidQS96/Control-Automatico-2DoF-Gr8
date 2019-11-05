@@ -85,7 +85,7 @@ int main(void)
 {
     uint16_t count      = MID_COUNT;
     uint16_t countPrev  = MID_COUNT;
-    float scalingFactor = 75.0 / 3350.0;
+    float scalingFactor = 75.0 / 3350.0; //grados por conteos
     float angle;
     char countStr[50];
     char angleStr[50];
