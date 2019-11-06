@@ -1,0 +1,274 @@
+>> s=tf('s')
+
+s =
+ 
+  s
+ 
+Continuous-time transfer function.
+
+>> numPitch = 1905
+
+numPitch =
+
+        1905
+
+>> denPitch = s^3+6.706*s^2+6.599*s+42.92
+
+denPitch =
+ 
+  s^3 + 6.706 s^2 + 6.599 s + 42.92
+ 
+Continuous-time transfer function.
+
+>> tfPitch = exp(-.15*s)*tf(numPitch, denPitch)
+
+tfPitch =
+ 
+  exp(-0.15*s) * (1905)
+ 
+Continuous-time transfer function.
+
+>> numPitch = [1905]
+
+numPitch =
+
+        1905
+
+>> denPitch = [1 6.706 6.599 42.92]
+
+denPitch =
+
+    1.0000    6.7060    6.5990   42.9200
+
+>> tfPitch = exp(-.15*s)*tf(numPitch, denPitch)
+
+tfPitch =
+ 
+                               1905
+  exp(-0.15*s) * ---------------------------------
+                 s^3 + 6.706 s^2 + 6.599 s + 42.92
+ 
+Continuous-time transfer function.
+
+>> numPY=[-679]
+
+numPY =
+
+  -679
+
+>> denPY=[1 14.9 0.3749]
+
+denPY =
+
+    1.0000   14.9000    0.3749
+
+>> tfPY = exp(-.3*s)*tf(numPitch, denPitch)
+
+tfPY =
+ 
+                              1905
+  exp(-0.3*s) * ---------------------------------
+                s^3 + 6.706 s^2 + 6.599 s + 42.92
+ 
+Continuous-time transfer function.
+
+>> tfPY = exp(-.3*s)*tf(numPY, denPY)
+
+tfPY =
+ 
+                        -679
+  exp(-0.3*s) * ---------------------
+                s^2 + 14.9 s + 0.3749
+ 
+Continuous-time transfer function.
+
+>> numYaw = [346.9]
+
+numYaw =
+
+  346.9000
+
+>> denYaw = [1 1.232 0.2718]
+
+denYaw =
+
+    1.0000    1.2320    0.2718
+
+>> tfYaw = exp(-.5*s)*tf(numYaw, denYaw)
+
+tfYaw =
+ 
+                        346.9
+  exp(-0.5*s) * ----------------------
+                s^2 + 1.232 s + 0.2718
+ 
+Continuous-time transfer function.
+
+>> ident
+Warning: The "ident" command is obsolete and may be
+removed in a future release of MATLAB. Use the
+"systemIdentification" command instead. 
+> In ctrlMsgUtils.warning (line 25)
+  In ident (line 44) 
+>> sisotool
+>> step(tfPitch)
+>> step(tfYaw)
+>> step(tfPY)
+>> sisotool(tfPitch)
+>> diary ModeloEmpirico.txt
+Error using diary
+ModeloEmpirico.txt: Cannot open file: permission denied.
+ 
+>> diary on ModeloEmpirico.txt
+Error using diary
+Too many input arguments.
+ 
+>> diary on
+Error using diary
+ModeloEmpirico.txt: Cannot open file: permission denied.
+ 
+>> diary off
+>> diary on
+Error using diary
+ModeloEmpirico.txt: Cannot open file: permission denied.
+ 
+Error using cd
+Cannot CD to C:\Users\david\My Documents (Name is nonexistent or not a directory).
+
+------------------------------------------Aca comence a usar diary...---------------------------------
+%Se cambio el nombre de las variables en workspace para ubicarlas con mas facilidad
+sisotool(Yaw_tf)
+Pitch_C
+
+Pitch_C =
+ 
+  0.00037246 (s+1.935) (s^2 + 0.03615s + 6.426)
+  ---------------------------------------------
+                    (s+5.853)
+ 
+Name: C
+Continuous-time zero/pole/gain model.
+
+Yaw_Pitch
+{Undefined function or variable 'Yaw_Pitch'.
+} 
+Yaw_C
+
+Yaw_C =
+ 
+  0.0032726 (s+0.2914)
+ 
+Name: C
+Continuous-time zero/pole/gain model.
+
+Yaw_residuez = residuez(Yaw_C)
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('coder.internal.errorIf', 'C:\Program Files\MATLAB\R2017b\toolbox\shared\coder\coder\+coder\+internal\errorIf.m', 8)" style="font-weight:bold">coder.internal.errorIf</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2017b\toolbox\shared\coder\coder\+coder\+internal\errorIf.m',8,0)">line 8</a>)
+Input R in residuez must be double/single, instead it was zpk.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('signal.internal.sigcheckfloattype', 'C:\Program Files\MATLAB\R2017b\toolbox\signal\signal\+signal\+internal\sigcheckfloattype.m', 67)" style="font-weight:bold">signal.internal.sigcheckfloattype</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2017b\toolbox\signal\signal\+signal\+internal\sigcheckfloattype.m',67,0)">line 67</a>)
+            coder.internal.errorIf(cond,...
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('residuez', 'C:\Program Files\MATLAB\R2017b\toolbox\signal\signal\residuez.m', 157)" style="font-weight:bold">residuez</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2017b\toolbox\signal\signal\residuez.m',157,0)">line 157</a>)
+    if any([signal.internal.sigcheckfloattype(b,'single','residuez','R')...
+} 
+Yaw_residuez = residuez(Yaw_C)
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('coder.internal.errorIf', 'C:\Program Files\MATLAB\R2017b\toolbox\shared\coder\coder\+coder\+internal\errorIf.m', 8)" style="font-weight:bold">coder.internal.errorIf</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2017b\toolbox\shared\coder\coder\+coder\+internal\errorIf.m',8,0)">line 8</a>)
+Input R in residuez must be double/single, instead it was zpk.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('signal.internal.sigcheckfloattype', 'C:\Program Files\MATLAB\R2017b\toolbox\signal\signal\+signal\+internal\sigcheckfloattype.m', 67)" style="font-weight:bold">signal.internal.sigcheckfloattype</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2017b\toolbox\signal\signal\+signal\+internal\sigcheckfloattype.m',67,0)">line 67</a>)
+            coder.internal.errorIf(cond,...
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('residuez', 'C:\Program Files\MATLAB\R2017b\toolbox\signal\signal\residuez.m', 157)" style="font-weight:bold">residuez</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2017b\toolbox\signal\signal\residuez.m',157,0)">line 157</a>)
+    if any([signal.internal.sigcheckfloattype(b,'single','residuez','R')...
+} 
+Yaw_Pitch
+{Undefined function or variable 'Yaw_Pitch'.
+} 
+Pitch_C
+
+Pitch_C =
+ 
+  0.00037246 (s+1.935) (s^2 + 0.03615s + 6.426)
+  ---------------------------------------------
+                    (s+5.853)
+ 
+Name: C
+Continuous-time zero/pole/gain model.
+
+Pitch_numC = 0.00037246 *(s+1.935)* (s^2 + 0.03615s + 6.426)
+ Pitch_numC = 0.00037246 *(s+1.935)* (s^2 + 0.03615s + 6.426)
+                                                   
+{Error: Unexpected MATLAB expression.
+} 
+Pitch_numC = 0.00037246 *(s + 1.935)* (s^2 + 0.03615*s + 6.426)
+
+Pitch_numC =
+ 
+  0.0003725 s^3 + 0.0007342 s^2 + 0.002419 s + 0.004631
+ 
+Continuous-time transfer function.
+
+Pitch_denC = s+5.853
+
+Pitch_denC =
+ 
+  s + 5.853
+ 
+Continuous-time transfer function.
+
+Yaw_residuez = residuez(Pitch_numC, Pitch_denC)
+{Undefined operator '==' for input arguments of type 'tf'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('residuez', 'C:\Program Files\MATLAB\R2017b\toolbox\signal\signal\residuez.m', 59)" style="font-weight:bold">residuez</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2017b\toolbox\signal\signal\residuez.m',59,0)">line 59</a>)
+    if( a(1) == 0 )
+} 
+help residuez
+ <strong>residuez</strong> Z-transform partial-fraction expansion.
+    [R,P,K] = <strong>residuez</strong>(B,A) finds the residues, poles and direct terms
+    of the partial-fraction expansion of B(z)/A(z),
+ 
+       B(z)       r(1)               r(n)
+       ---- = ------------ +...  ------------ + k(1) + k(2)z^(-1) ...
+       A(z)   1-p(1)z^(-1)       1-p(n)z^(-1)
+ 
+    B and A are the numerator and denominator polynomial coefficients,
+    respectively, in ascending powers of z^(-1).  R and P are column
+    vectors containing the residues and poles, respectively.  K contains
+    the direct terms in a row vector.  The number of poles is
+       n = length(A)-1 = length(R) = length(P)
+    The direct term coefficient vector is empty if length(B) < length(A);
+    otherwise,
+       length(K) = length(B)-length(A)+1
+ 
+    If P(j) = ... = P(j+m-1) is a pole of multiplicity m, then the
+    expansion includes terms of the form
+            R(j)              R(j+1)                      R(j+m-1)
+       -------------- + ------------------   + ... + ------------------
+       1 - P(j)z^(-1)   (1 - P(j)z^(-1))^2           (1 - P(j)z^(-1))^m
+ 
+    [B,A] = <strong>residuez</strong>(R,P,K) converts the partial-fraction expansion back
+    to B/A form.
+ 
+    Warning: Numerically, the partial fraction expansion of a ratio of
+    polynomials represents an ill-posed problem.  If the denominator
+    polynomial, A(s), is near a polynomial with multiple roots, then small
+    changes in the data, including roundoff errors, can make arbitrarily
+    large changes in the resulting poles and residues. Problem
+    formulations making use of state-space or zero-pole representations
+    are preferable.
+ 
+    % Example:
+    %   Compute the partial fraction expansion of the following transfer
+    %   function H(z) = (1 + 2z^-1) / (1 - z^-1 + 2z^-2).
+ 
+    num = [1 1];                % Numerator coefficients
+    den = [1 -1 2];             % Denominator coefficients
+    [r,p] = residuez(num,den)   % H(z) = r(1)/(1-p(1)z^-1) + ...
+                                %        r(2)/(1-p(2)z^-1)
+ 
+    See also <a href="matlab:help residue">residue</a>, <a href="matlab:help prony">prony</a>, <a href="matlab:help poly">poly</a>, <a href="matlab:help roots">roots</a>, <a href="matlab:help ss2tf">ss2tf</a>, <a href="matlab:help tf2ss">tf2ss</a>, <a href="matlab:help tf2zp">tf2zp</a> <a href="matlab:help and">and</a> <a href="matlab:help zp2ss">zp2ss</a>.
+
+    <a href="matlab:doc residuez">Reference page for residuez</a>
+
+%Creo que para una descomposicion, ocupa ser discreto, por lo que se ocupa un tiempo de muestreo
+diary off
